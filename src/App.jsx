@@ -4,6 +4,7 @@ import Onboarding from "./Pages/Onboarding/Onboarding";
 import Landing from "./Pages/Landing/Landing";
 import Map from "./Pages/Map/Map";
 import Error from "./Pages/Error/Error";
+import Scanner from "./Pages/Scanner/Scanner";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
             <Route path="/speakers" element={<Index />} />
             <Route path="/speakers/:id" element={<Show />} />
             <Route path="/exhibits" element={<Index />} /> */}
+            <Route path="/scanner" element={<Scanner />} />
             <Route path="/map" element={<Map />} />
             <Route path="*" element={<Error />} />
           </Routes>
