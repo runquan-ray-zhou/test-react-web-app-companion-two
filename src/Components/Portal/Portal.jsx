@@ -28,8 +28,16 @@ export default function Portal() {
             )}
             {onboardingPage === "secondOnboardingPage" && (
                 <div className="onboarding-page">
-                    <div className="onboarding-page-status-bar">
-
+                    <div className="onboarding-page-status">
+                        <div className="onboarding-page-status-bar">
+                            <hr />
+                        </div>
+                        <div className="onboarding-page-status-bar two">
+                            <hr />
+                        </div>
+                        <div className="onboarding-page-status-bar two">
+                            <hr />
+                        </div>
                     </div>
                     <div className="secondOnboarding-page-heading">
                         <h1>Welcome to AeroGuide for ASTC Chicago!</h1>
@@ -48,8 +56,16 @@ export default function Portal() {
             )}
             {onboardingPage === "thirdOnboardingPage" && (
                 <div className="onboarding-page">
-                    <div className="onboarding-page-status-bar">
-
+                    <div className="onboarding-page-status">
+                        <div className="onboarding-page-status-bar">
+                            <hr />
+                        </div>
+                        <div className="onboarding-page-status-bar">
+                            <hr />
+                        </div>
+                        <div className="onboarding-page-status-bar two">
+                            <hr />
+                        </div>
                     </div>
                     <div className="thirdOnboarding-page-heading">
                         <h1>Discover More with AR</h1>
@@ -68,6 +84,17 @@ export default function Portal() {
             )}
             {onboardingPage === "fourthOnboardingPage" && (
                 <div className="onboarding-page">
+                    <div className="onboarding-page-status">
+                        <div className="onboarding-page-status-bar">
+                            <hr />
+                        </div>
+                        <div className="onboarding-page-status-bar">
+                            <hr />
+                        </div>
+                        <div className="onboarding-page-status-bar">
+                            <hr />
+                        </div>
+                    </div>
                     <div className="fourthOnboarding-page-heading">
                         <h1>You're All Set</h1>
                     </div>

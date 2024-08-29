@@ -10,6 +10,31 @@
     align-items: center;
     text-align: center;
 
+    .fourthOnboarding-page-heading {
+        margin-bottom: 100px;
+    }
+    .thirdOnboarding-page-heading {
+        margin-bottom: -30px;
+    }
+
+    .onboarding-page-status {
+        top: 8%;
+        position: fixed;
+        display: flex;
+        gap: 8px;
+        .onboarding-page-status-bar {
+            hr {
+                width: 100px;
+                border: 1px solid #3F79BA;
+            }
+        }
+        .two {
+            hr {
+                border: 1px solid white;
+            }
+        }
+    }
+
     p {
         font-size: 1.4em;
         font-weight: 100;
@@ -29,7 +54,7 @@
     }
 
     .onboarding-page-buttons {
-        bottom: 65px;
+        bottom: 8%;
         position: fixed;
         display: flex;
         justify-content: space-around;
