@@ -99,7 +99,9 @@ export default function Portal() {
                         <h1>You're All Set</h1>
                     </div>
                     <div className="fourthOnboarding-page-logo">
-                        <img src={arLogo} alt="onboarding-arLogo" />
+                        <Link to="/scanner"> 
+                            <img src={arLogo} alt="onboarding-arLogo" />
+                        </Link>
                     </div>
                     <div className="fourthOnboarding-page-text">
                         <p>Click the Logo above to start scanning or enter the AeroGuide</p>
