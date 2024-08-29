@@ -8,7 +8,7 @@ export default function Scanner() {
     <div className="Scanner">
         <div className="Scanner-container">
             <nav className="Scanner-container-nav">
-                    <i className="fa-solid fa-chevron-left"></i><h1>Scanner</h1>
+                    <i onClick={() => navigate("/")} className="fa-solid fa-chevron-left"></i><h1>Scanner</h1>
             </nav>
             <div className="Scanner-iframe">
                 <iframe
@@ -18,7 +18,7 @@ export default function Scanner() {
                 ></iframe>
             </div>
             <div className="Scanner-button">
-                <button>
+                <button onClick={() => navigate("/scanner")}>
                     <img src={arLogo} alt="scanner-arLogo" />
                 </button>
             </div>
