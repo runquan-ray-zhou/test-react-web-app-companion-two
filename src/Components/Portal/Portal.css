@@ -9,4 +9,44 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+
+    p {
+        font-size: 1.4em;
+        font-weight: 100;
+        padding: 30px;
+        margin-bottom: 100px;
+        -webkit-font-smoothing: antialiased; 
+        -moz-font-smoothing: antialiased; 
+    }
+    
+    h1 {
+        padding: 20px;
+        font-size: 2.7em;
+        font-weight: 50;
+        margin-top: 60px;
+        -webkit-font-smoothing: antialiased; 
+        -moz-font-smoothing: antialiased; 
+    }
+
+    .onboarding-page-buttons {
+        bottom: 65px;
+        position: fixed;
+        display: flex;
+        justify-content: space-around;
+        gap: 80px;
+        button {
+            font-size: 1.6em;
+            font-weight: 100;
+            padding: 15px 30px;
+            border-radius: 29px;
+            background-color: rgb(40, 111, 175);
+            color: white;
+            border: none; 
+        }
+    }
+}
+#onboarding-page-buttons-skip1,
+#onboarding-page-buttons-skip2 {
+    background-color: white;
+    color: black;
 }

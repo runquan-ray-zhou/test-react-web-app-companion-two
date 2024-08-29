@@ -21,7 +21,9 @@ export default function Portal() {
                         <img src={logo} alt="onboarding-logo" />
                     </div>
                     <h1>AeroGuide</h1>
-                    <button onClick={() => setOnboardingPage("secondOnboardingPage")}>Lets Fly!</button>
+                    <div className="onboarding-page-buttons">
+                        <button onClick={() => setOnboardingPage("secondOnboardingPage")}>Lets Fly!</button>
+                    </div>
                 </div>
             )}
             {onboardingPage === "secondOnboardingPage" && (
@@ -30,7 +32,7 @@ export default function Portal() {
 
                     </div>
                     <div className="secondOnboarding-page-heading">
-                        <h1>Welcome to AeroGuide for ASTC Chicago</h1>
+                        <h1>Welcome to AeroGuide for ASTC Chicago!</h1>
                     </div>
                     <div className="secondOnboarding-page-logo">
                         <img src={heroImage} alt="onboarding-heroImage" />
@@ -38,8 +40,10 @@ export default function Portal() {
                     <div className="secondOnboarding-page-text">
                         <p>Unlock a new way to experience the event with AR.</p>
                     </div>
-                    <button onClick={() => setOnboardingPage("fourthOnboardingPage")}>Skip</button>
-                    <button onClick={() => setOnboardingPage("thirdOnboardingPage")}>Next</button>
+                    <div className="onboarding-page-buttons">
+                        <button id="onboarding-page-buttons-skip1" onClick={() => setOnboardingPage("fourthOnboardingPage")}>Skip</button>
+                        <button onClick={() => setOnboardingPage("thirdOnboardingPage")}>Next</button>
+                    </div>
                 </div>
             )}
             {onboardingPage === "thirdOnboardingPage" && (
@@ -54,10 +58,12 @@ export default function Portal() {
                         <img src={onboarding} alt="onboarding-logo2" />
                     </div>
                     <div className="thirdOnboarding-page-text">
-                        <p>Click on the log to scan a QR code or event sign and instantly</p>
+                        <p>Click on the log to scan a QR code or event sign and instantly learn more about speaker sessions.</p>
                     </div>
-                    <button onClick={() => setOnboardingPage("fourthOnboardingPage")}>Skip</button>
-                    <button onClick={() => setOnboardingPage("fourthOnboardingPage")}>Next</button>
+                    <div className="onboarding-page-buttons">
+                        <button id="onboarding-page-buttons-skip2" onClick={() => setOnboardingPage("fourthOnboardingPage")}>Skip</button>
+                        <button onClick={() => setOnboardingPage("fourthOnboardingPage")}>Next</button>
+                    </div>
                 </div>
             )}
             {onboardingPage === "fourthOnboardingPage" && (
@@ -71,7 +77,9 @@ export default function Portal() {
                     <div className="fourthOnboarding-page-text">
                         <p>Click the Logo above to start scanning or enter the AeroGuide</p>
                     </div>
-                    <button onClick={() => navigate("/landing")}>Get Started</button>
+                    <div className="onboarding-page-buttons">
+                        <button onClick={() => navigate("/landing")}>Get Started</button>
+                    </div>
                 </div>
             )}
         </div>
