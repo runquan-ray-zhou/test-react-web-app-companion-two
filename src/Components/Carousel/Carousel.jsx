@@ -1,9 +1,13 @@
 import "./Carousel.css"
+import { events } from "../../assets/data"
+import EventCard from "../EventCard/EventCard"
 
 export default function Carousel() {
   return (
-    <div>
-      <h1>This is the Carousel Component</h1>
+    <div className="Carousel">
+            {events.map((event) => 
+                <EventCard event={event} key={event.id} />
+            )}
     </div>
   )
 }
