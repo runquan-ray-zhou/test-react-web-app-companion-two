@@ -22,7 +22,7 @@ export default function Home() {
                 <ul>
                     <li onClick={() => navigate("/home")}>Home</li>
                     <li onClick={() => navigate("/speakers")}>Full Speaker List</li>
-                    <li onClick={() => navigate("/scanner")}>Information Scanner</li>
+                    <li onClick={() => navigate("/scanner")}>Information Scan</li>
                     <li>Event Map</li>
                 </ul>
             </div>
