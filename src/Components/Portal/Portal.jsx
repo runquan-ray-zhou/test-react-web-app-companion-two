@@ -107,7 +107,7 @@ export default function Portal() {
                         <p>Click the Logo above to start scanning or enter the AeroGuide</p>
                     </div>
                     <div className="onboarding-page-buttons">
-                        <button onClick={() => navigate("/landing")}>Get Started</button>
+                        <button onClick={() => navigate("/home")}>Get Started</button>
                     </div>
                 </div>
             )}
