@@ -8,7 +8,7 @@ export default function Scanner() {
     <div className="Scanner">
         <div className="Scanner-container">
             <nav className="Scanner-container-nav">
-                    <i onClick={() => navigate("/")} className="fa-solid fa-chevron-left"></i><h1>Scanner</h1>
+                    <i onClick={() => navigate("/home")} className="fa-solid fa-chevron-left"></i><h1>Scanner</h1>
             </nav>
             <div className="Scanner-iframe">
                 <iframe

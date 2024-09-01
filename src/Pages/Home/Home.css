@@ -19,14 +19,67 @@
             height: 200px;
             margin-right: 30px;
         }
-        .fa-solid {
-            color: white;
-            font-size: 4em;
-            position: fixed;
-            top: 10px;
+        .Home-hamburger {
+            height: 50px;
+        }
+        .Home-hamburger span {
+            height: 5px;
+            width: 50px;
+            background-color: white;
+            border-radius: 25px;
+            position: absolute;
+            top: 17%;
+            margin-left: 30px;
+            transform: translate(-50%, -50%);
+            transition: .3s ease;
+        }
+        .Home-hamburger span:nth-child(1) {
+            top: 10%;
+        }
+        .Home-hamburger span:nth-child(3) {
+            top: 24%;
+        }
+        .Home-hamburger.active span:nth-child(1) {
+            top: 17%;
+            transform: translate(-50%, -50%) rotate(45deg);
+        }
+        .Home-hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+        .Home-hamburger.active span:nth-child(3) {
+            top: 17%;
+            transform: translate(-50%, -50%) rotate(-45deg);
         }
     }
+    .off-screen-menu {
+        background-color: rgb(0, 46, 120);
+        color: white;
+        height: 100vh;
+        width: 100%;
+        max-width: auto;
+        position: fixed;
+        top: 0;
+        right: -450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 1.5em;
+        transition: .3s ease;
+        ul {
+            padding: 0;
+        }
+        li {
+            list-style: none;
+            margin-bottom: 30px;
+        }
+    }
+    .off-screen-menu.active {
+        right: 0;
+    }
     .Home-date {
+        z-index: -1;
         align-self: flex-start;
         top: 220px;
         position: fixed;
