@@ -20,7 +20,7 @@ export default function Home() {
                 </div>
             </nav>
             <div className="Home-date">
-                <h1>{Date().slice(0,15)}</h1>
+                <h2>{Date().slice(0,15)}</h2>
             </div>
             <div className="Home-carousel">
                 <Carousel />
