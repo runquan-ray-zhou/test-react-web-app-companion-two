@@ -17,6 +17,9 @@ export default function Scanner() {
                     allow="camera"
                 ></iframe>
             </div>
+            <div className="Scanner-message">
+                <p>Point your camera at a OR code to start scanning and discover more event details!</p>
+            </div>
             <div className="Scanner-button">
                 <button onClick={() => navigate("/scanner")}>
                     <img src={arLogo} alt="scanner-arLogo" />
