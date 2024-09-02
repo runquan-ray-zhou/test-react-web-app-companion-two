@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom"
 import arLogo from "../../assets/arLogo.svg"
 import heroImage from "../../assets/heroImage.svg"
 import { september28thPresentations } from "../../assets/data"
+import Sessions from "../../Components/Sessions/Sessions"
 import "./Index.css"
 
 export default function Index() {
@@ -46,6 +47,9 @@ export default function Index() {
               <span></span>
             </div>
           </nav>
+        <div className="Index-sessions">
+          <Sessions todaySessions={todaySessions}/>
+        </div>
         <div className="Index-scanner-button">
           <button onClick={() => navigate("/scanner")}>
             <img src={arLogo} alt="scanner-arLogo" />

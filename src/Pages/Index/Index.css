@@ -107,6 +107,10 @@
     .off-screen-menu.active {
         right: 0;
     }
+    .Index-sessions {
+        margin-top: 30%;
+        position: relative;
+    }
     .Index-scanner-button {
         z-index: 10;
         bottom: 10px;

@@ -1,0 +1,24 @@
+.Sessions {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    width: 400px;
+    height: 80vh;
+    .Sessions-date {
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        padding: 0px 10px;
+        background: rgb(213, 223, 240);
+        align-self: center;
+    }
+    .Sessions-time{
+        margin: 0;
+        padding: 12px 10px;
+        font-weight: 600;
+        background: rgb(213, 223, 240);
+        p {
+            margin: 0;
+        }
+    }
+}
