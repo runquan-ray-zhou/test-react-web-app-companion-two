@@ -17,8 +17,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Onboarding />} />
             <Route path="/onboarding" element={<Onboarding />} />
-            <Route path="/speakers" element={<Index />} />
-            <Route path="/speakers/:id" element={<Show />} />
+            <Route path="/sessions" element={<Index />} />
+            <Route path="/sessions/:id" element={<Show />} />
             <Route path="/home" element={<Home />} />
             <Route path="/scanner" element={<Scanner />} />
             <Route path="/map" element={<Map />} />
