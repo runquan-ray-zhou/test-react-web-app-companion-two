@@ -12,7 +12,7 @@
         top: 0;
         position: fixed;
         width: 100vh;
-        height: 150px;
+        height: 155px;
         display: flex;
         justify-content: center;
         img {
@@ -50,6 +50,33 @@
         .Index-hamburger.active span:nth-child(3) {
             top: 17%;
             transform: translate(-50%, -50%) rotate(-45deg);
+        }
+        .searchbar-container {
+            
+            display: flex;
+            align-items: center;
+        
+            form {
+                display: flex;
+                align-items: center;
+            }
+        
+            input[type="text"] {
+                width: 175px;
+                height: 30px;
+                border: 1px solid black;
+                border-radius: 15px;
+                padding: 5px 30px 5px 10px;
+                font-size: 16px;
+            }
+        
+            button {
+                font-size: 1.1em;
+                background: none;
+                border: none;
+                cursor: pointer;
+                margin-left: -40px;
+            }
         }
     }
     .off-screen-menu {
