@@ -43,6 +43,7 @@ export const events = [
 
 export const september28thPresentations = [
     {
+      id: 1,
       time: "1:30 PM – 1:45 PM US CDT",
       title: "2175: A Youth-Created XR Game About Climate Futures",
       type: "Hands-On Showcase",
@@ -51,6 +52,7 @@ export const september28thPresentations = [
       track: "Education and Events"
     },
     {
+      id: 2,
       time: "1:30 PM – 2:30 PM US CDT",
       title: "Addressing Community Priorities through Civic Engagement & Policymaking",
       type: "Panel",
@@ -63,6 +65,7 @@ export const september28thPresentations = [
       track: "Community and Partnerships"
     },
     {
+      id: 3,
       time: "1:30 PM – 2:30 PM US CDT",
       title: "AI ASAP: How to Amplify Existing Hands-On Activities to Start Sharing AI Concepts with Learners",
       type: "Experiential",
@@ -78,6 +81,7 @@ export const september28thPresentations = [
       track: "Education and Events"
     },
     {
+      id: 4,
       time: "1:30 PM – 2:30 PM US CDT",
       title: "Bringing Informal STEM to Children from Underrepresented Groups Through Museum-Research Partnerships",
       type: "Panel",
@@ -97,6 +101,7 @@ export const september28thPresentations = [
       track: "Community and Partnerships"
     },
     {
+      id: 5,
       time: "1:30 PM – 2:30 PM US CDT",
       title: "Cambio Ahead: Insights on How a Change Towards Equity Is a Change for Museums’ Future",
       type: "Panel",
@@ -110,6 +115,7 @@ export const september28thPresentations = [
       track: "Audience, Diversity, and Inclusion"
     },
     {
+      id: 6,
       time: "1:30 PM – 2:30 PM US CDT",
       title: "Four White Men Reflect on DEI",
       type: "Group Discussion",
@@ -123,6 +129,7 @@ export const september28thPresentations = [
       track: "Audience, Diversity, and Inclusion"
     },
     {
+      id: 7,
       time: "1:30 PM – 2:30 PM US CDT",
       title: "Lightning Session: Natural History",
       type: "Lightning Session",
@@ -136,6 +143,7 @@ export const september28thPresentations = [
       ]
     },
     {
+      id: 8,
       time: "1:30 PM – 2:30 PM US CDT",
       title: "Mistakes WILL BE Made: Balancing Success, Failure, and Opportunity Cost in Experience Design and Beyond",
       type: "Solution Lab",
@@ -149,6 +157,7 @@ export const september28thPresentations = [
       track: "Facility and Exhibit Design"
     },
     {
+      id: 9,
       time: "1:30 PM – 2:30 PM US CDT",
       title: "Planetary Health Efforts, Challenges, and Priorities: Insights from Seeding Action’s Institutional Self-Assessment",
       type: null,
@@ -160,6 +169,7 @@ export const september28thPresentations = [
       track: "Trends and Innovation"
     },
     {
+      id: 10,
       time: "1:30 PM – 2:30 PM US CDT",
       title: "Robots to the Rescue: Leveraging AI-Driven Tools for Nonprofit Marketing & Fundraising",
       type: "Experiential",
@@ -168,6 +178,7 @@ export const september28thPresentations = [
       track: "Operations and Development"
     },
     {
+      id: 11,
       time: "1:30 PM – 2:30 PM US CDT",
       title: "The Value and Values of Communities of Practice: Designing for Inclusion, Challenge, and Vulnerability",
       type: null,
@@ -182,6 +193,7 @@ export const september28thPresentations = [
       track: "Organizational Culture and Workforce"
     },
     {
+      id: 12,
       time: "1:30 PM – 2:30 PM US CDT",
       title: "Which Comes First? The Concept Deck or the Money? Tips for Hatching Your Capital Project",
       type: "Panel",
@@ -197,6 +209,7 @@ export const september28thPresentations = [
       track: "Facility and Exhibit Design"
     },
     {
+      id: 13,
       time: "1:50 PM – 2:05 PM US CDT",
       title: "Airborne Interactive: Elevating the Museum Experience with Spatial Computing",
       type: "Hands-On Showcase",
@@ -206,6 +219,7 @@ export const september28thPresentations = [
       track: "Facility and Exhibit Design"
     },
     {
+      id: 14,
       time: "2:10 PM – 2:25 PM US CDT",
       title: "Astronomy Activities for Neurodiverse Youth",
       type: "Hands-On Showcase",
@@ -215,6 +229,7 @@ export const september28thPresentations = [
       track: "Audience, Diversity, and Inclusion"
     },
     {
+      id: 15,
       time: "2:45 PM – 3:00 PM US CDT",
       title: "Dinosaurs Will Always Be Awesome (¡Y Accesibles Para Todos!)",
       type: "Hands-On Showcase",
@@ -227,7 +242,8 @@ export const september28thPresentations = [
       ],
       track: "Education and Events"
     },
-    {
+    { 
+      id: 16,
       time: "2:45 PM – 3:45 PM US CDT",
       title: "\"Be proud!\": Exhibit Design Guidance from Youth with Learning Disabilities",
       type: "Group Discussion",
@@ -242,6 +258,7 @@ export const september28thPresentations = [
       track: "Audience, Diversity, and Inclusion"
     },
     {
+      id: 17,
         time: "2:45 PM – 3:45 PM US CDT",
         title: "A Cornucopia of Stories About and Resources for Early Childhood Exhibits and Programs",
         type: "Panel",
@@ -257,6 +274,7 @@ export const september28thPresentations = [
         track: "Trends and Innovation"
       },
       {
+        id: 18,
         time: "2:45 PM – 3:45 PM US CDT",
         title: "Collective Futures: Reimagining Museums and Science Centers in Partnership with Indigenous Youth",
         type: "Panel",
@@ -273,6 +291,7 @@ export const september28thPresentations = [
         track: "Community and Partnerships"
       },
       {
+        id: 19,
         time: "2:45 PM – 3:45 PM US CDT",
         title: "Inspiring Hope and Action for Planetary Health: Insights from Seeding Action and Caretakers of Wonder",
         type: "Panel",
@@ -286,6 +305,7 @@ export const september28thPresentations = [
         track: "Education and Events"
       },
       {
+        id: 20,
         time: "2:45 PM – 3:45 PM US CDT",
         title: "Cultivating a Culture of Hope Through Local Advocacy",
         type: "Group Discussion",
@@ -294,6 +314,7 @@ export const september28thPresentations = [
         track: "Community and Partnerships"
       },
       {
+        id: 21,
         time: "2:45 PM – 3:45 PM US CDT",
         title: "Data-Driven Inquiry with Digitized Specimens: Exploring Methods and Strategies for Learning with Natural History Collections",
         type: "Experiential",
@@ -306,6 +327,7 @@ export const september28thPresentations = [
         track: "Education and Events"
       },
       {
+        id: 22,
         time: "2:45 PM – 3:45 PM US CDT",
         title: "Discussion as a Method to Advance DEAI Efforts",
         type: "Group Discussion",
@@ -319,6 +341,7 @@ export const september28thPresentations = [
         track: "Audience, Diversity, and Inclusion"
       },
       {
+        id: 23,
         time: "2:45 PM – 3:45 PM US CDT",
         title: "Lightning Session: Teachers and Schools",
         type: "Lightning Session",
@@ -334,6 +357,7 @@ export const september28thPresentations = [
         ]
       },
       {
+        id: 24,
         time: "2:45 PM – 3:45 PM US CDT",
         title: "Playful Leadership: Making Space for Focus AND Fun in Challenging Work Environments",
         type: "Panel",
@@ -346,6 +370,7 @@ export const september28thPresentations = [
         track: "Leadership and Direction"
       },
       {
+        id: 25,
         time: "2:45 PM – 3:45 PM US CDT",
         title: "The Longevity Blueprint: Exploring Experiential Depreciation and the Total Cost of Ownership of Exhibits",
         type: "Panel",
@@ -359,6 +384,7 @@ export const september28thPresentations = [
         track: "Facility and Exhibit Design"
       },
       {
+        id: 26,
         time: "2:45 PM – 3:45 PM US CDT",
         title: "The Opportunity To Start From (Almost) Scratch: What Would You Do?",
         type: "Solution Lab",
@@ -371,6 +397,7 @@ export const september28thPresentations = [
         track: "Trends and Innovation"
       },
       {
+        id: 27,
         time: "3:05 PM – 3:20 PM US CDT",
         title: "Escape the Backpack, Explore the Natural History Museum in a New Way!",
         type: "Hands-On Showcase",
@@ -380,6 +407,7 @@ export const september28thPresentations = [
         track: "Education and Events"
       },
       {
+        id: 28,
         time: "3:25 PM – 3:40 PM US CDT",
         title: "Europa Prime: A STEM-Based Virtual Reality (VR) Experience and Other Digital Assets Co-Designed for Accessibility",
         type: "Hands-On Showcase",
@@ -388,6 +416,7 @@ export const september28thPresentations = [
         track: "Audience, Diversity, and Inclusion"
       },
       {
+        id: 29,
         time: "4:00 PM – 4:15 PM US CDT",
         title: "Inviting Interaction in the Arts to Co-Create Inspiring and Memorable STEAM Learning Experiences",
         type: "Hands-On Showcase",
@@ -399,6 +428,7 @@ export const september28thPresentations = [
         track: "Audience, Diversity, and Inclusion"
       },
       {
+        id: 30,
         time: "4:00 PM – 5:00 PM US CDT",
         title: "Designing Exhibits About AI: Reflections, Challenges, and Opportunities",
         type: "Group Discussion",
@@ -413,6 +443,7 @@ export const september28thPresentations = [
         track: "Education and Events"
       },
       {
+        id: 31,
         time: "4:00 PM – 5:00 PM US CDT",
         title: "Diversity and Inclusion in STEM Through Stories, Music, and Art",
         type: "Experiential",
@@ -421,6 +452,7 @@ export const september28thPresentations = [
         track: "Education and Events"
       },
       {
+        id: 32,
         time: "4:00 PM – 5:00 PM US CDT",
         title: "Exploring Culturally Sustaining STEM Partnerships: A Year-Long Workshop Series",
         type: "Panel",
@@ -434,6 +466,7 @@ export const september28thPresentations = [
         track: "Community and Partnerships"
       },
       {
+        id: 33,
         time: "4:00 PM – 5:00 PM US CDT",
         title: "Exploring U.S. Federal Funding Opportunities",
         type: "Panel",
@@ -442,6 +475,7 @@ export const september28thPresentations = [
         track: "Operations and Development"
       },
       {
+        id: 34,
         time: "4:00 PM – 5:00 PM US CDT",
         title: "Got Diversity? What’s Next?",
         type: "Group Discussion",
@@ -455,6 +489,7 @@ export const september28thPresentations = [
         track: "Audience, Diversity, and Inclusion"
       },
       {
+        id: 35,
         time: "4:00 PM – 5:00 PM US CDT",
         title: "Learning from Adventure Playgrounds: Creating Safe Spaces for Risky Play in a Variety of Venues",
         type: "Panel",
@@ -471,6 +506,7 @@ export const september28thPresentations = [
         track: "Facility and Exhibit Design"
       },
       {
+        id: 36,
         time: "4:00 PM – 5:00 PM US CDT",
         title: "Leveraging Partnerships for Research and Learning at Two U.S. Fossil Sites",
         type: "Panel",
@@ -484,6 +520,7 @@ export const september28thPresentations = [
         track: "Community and Partnerships"
       },
       {
+        id: 37,
         time: "4:00 PM – 5:00 PM US CDT",
         title: "Lightning Session: Learning Through Evaluation",
         type: "Lightning Session",
@@ -499,6 +536,7 @@ export const september28thPresentations = [
         track: "Lightning Session"
       },
       {
+        id: 38,
         time: "4:00 PM – 5:00 PM US CDT",
         title: "Making Space to Explore Mental Health & Humanity Content in Your Science Center",
         type: "Experiential",
@@ -514,6 +552,7 @@ export const september28thPresentations = [
         track: "Audience, Diversity, and Inclusion"
       },
       {
+        id: 39,
         time: "4:00 PM – 5:00 PM US CDT",
         title: "Swipe Right on Research Practitioner Partnerships: How to Find 'The One' for You",
         type: "Experiential",
@@ -527,6 +566,7 @@ export const september28thPresentations = [
         track: "Trends and Innovation"
       },
       {
+        id: 40,
         time: "4:00 PM – 5:00 PM US CDT",
         title: "The Challenges of Science Museums in Latin America",
         type: "Panel",
@@ -539,6 +579,7 @@ export const september28thPresentations = [
         track: "Trends and Innovation"
       },
       {
+          id: 41,
         time: "4:20 PM – 4:35 PM US CDT",
         title: "Scissors to Power Drills: Empowering Young Children Through Tool Use",
         type: "Hands-On Showcase",
@@ -550,6 +591,7 @@ export const september28thPresentations = [
         track: "Education and Events"
       },
       {
+        id: 42,
         time: "4:40 PM – 4:55 PM US CDT",
         title: "Supporting Young Learners with Brain Science",
         type: "Hands-On Showcase",
