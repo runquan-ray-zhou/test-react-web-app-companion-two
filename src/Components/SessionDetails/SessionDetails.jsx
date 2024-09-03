@@ -36,17 +36,37 @@ export default function SessionDetails() {
                 </button>
                 <hr />
             </div>
-            <span>
+            {session.sessionLeader ? <span>
                 <p className='SessionDetails-session-leader'>Session Leader:</p>
                 <p className='SessionDetails-session-leader-name'>{session.sessionLeader.split(" – ")[0]}<br></br>{session.sessionLeader.split(" – ")[1]}</p>
-            </span>
+            </span> : null}
             <span>
             <p className="SessionDetails-presenters">Session Presenters: <br></br>{session.presenters ? session.presenters.map(presenter => <p className="Session-info-presenter">{presenter.split(" – ")[0]}<br></br>{presenter.split(" – ")[1]}</p>) : null}</p>
             </span>
-            {/* <span>
-                <p className='SessionDetails-description'>{session.description}</p>
-            </span> */}
-
+            <span>
+                <p className='SessionDetails-description'>
+                    {!Array.isArray(session.description) 
+                        ? session.description 
+                        : session.description.map((item, index) => (
+                            <div key={index} className="presentation-item">
+                            <h3>{item.title}</h3>
+                            {item.description && <p>{item.description}</p>}
+                            <div className="presenters">
+                                <h4>Presenters:</h4>
+                                <ul>
+                                {item.presenters.map((presenter, presenterIndex) => (
+                                    <li key={presenterIndex}>
+                                    <strong>{presenter.name}</strong>
+                                    {presenter.affiliation && ` - ${presenter.affiliation}`}
+                                    </li>
+                                ))}
+                                </ul>
+                            </div>
+                            </div>
+                        ))
+                    }
+                    </p>
+            </span>
         </div>
     </div>
   )

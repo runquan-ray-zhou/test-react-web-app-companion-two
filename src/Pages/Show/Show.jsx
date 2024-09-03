@@ -30,7 +30,7 @@ export default function Show() {
                 <div className="Show-logo">
                     <img src={heroImage} alt="show-heroImage" />
                     <div className="Show-h1">
-                      <i onClick={() => navigate("/home")} className="fa-solid fa-chevron-left"></i><h1>Session Details</h1>
+                      <i onClick={() => navigate("/sessions")} className="fa-solid fa-chevron-left"></i><h1>Session Details</h1>
                     </div>
                 </div>
                 <div className={`Show-hamburger ${showMenu ? "active": ""}`} onClick={handleMenu}>
