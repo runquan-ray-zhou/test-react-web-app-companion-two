@@ -1,0 +1,57 @@
+.SessionDetails,
+.SessionDetails-container {
+    margin-top: 80px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .SessionDetails-icon-fa {
+        border: 1px solid rgb(0, 46, 120);
+        background-color: rgb(0, 46, 120);
+        color: white;
+        padding: 13px 20px;
+        border-radius: 50%;
+        font-size: 4em;
+        margin-bottom: 10px;
+    }
+    .SessionDetails-icon-span {
+        text-align: center;
+    }
+    h4 {
+        margin-bottom: -1px;
+    }
+    .SessionDetails-title {
+        text-align: center;
+    }
+    h3,
+    .SessionDetails-location {
+        margin-top: 0px;
+    }
+    .SessionDetails-date-location {
+        display: flex;
+        .SessionDetails-location {
+            margin-left: 30px;
+        }
+    }
+    .SessionDetails-call-to-action {
+        hr {
+            width: 350px;
+        }
+        button {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border-radius: 25px;
+            border: 1px solid rgb(0, 46, 120);
+            background-color: white;
+            color: rgb(0, 46, 120);
+            padding: 8px 80px;
+            font-size: 1.4em;
+            font-weight: 900;
+        }
+
+    }
+    .SessionDetails-session-info {
+        text-align: start;
+    }
+}
