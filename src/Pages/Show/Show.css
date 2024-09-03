@@ -80,6 +80,24 @@
     .off-screen-menu.active {
         right: 0;
     }
+    .Show-h1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 0;
+        color: white;
+        h1 {
+            margin-top: 2px;
+            -webkit-font-smoothing: antialiased; 
+            -moz-font-smoothing: antialiased; 
+        }
+        i {
+            font-size: 1.5em;
+            position: fixed;
+            left: 10%;
+            margin-top: -16px;   
+        }
+    }
     .Show-scanner-button {
         z-index: 10;
         bottom: 10px;

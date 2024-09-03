@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom"
 import arLogo from "../../assets/arLogo.svg"
 import heroImage from "../../assets/heroImage.svg"
 import "./Show.css"
+import SessionDetails from '../../Components/SessionDetails/SessionDetails'
 
 export default function Show() {
 
@@ -28,6 +29,9 @@ export default function Show() {
             <nav>
                 <div className="Show-logo">
                     <img src={heroImage} alt="show-heroImage" />
+                    <div className="Show-h1">
+                      <i onClick={() => navigate("/home")} className="fa-solid fa-chevron-left"></i><h1>Session Details</h1>
+                    </div>
                 </div>
                 <div className={`Show-hamburger ${showMenu ? "active": ""}`} onClick={handleMenu}>
                     <span></span>
@@ -35,8 +39,9 @@ export default function Show() {
                     <span></span>
                 </div>
             </nav>
-        
-
+        <div className="Show-container-details">
+          <SessionDetails />
+        </div>
         <div className="Show-scanner-button">
           <button onClick={() => navigate("/scanner")}>
             <img src={arLogo} alt="scanner-arLogo" />

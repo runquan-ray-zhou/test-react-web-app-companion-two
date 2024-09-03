@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom";
 import "./Session.css"
 
 export default function Session({session}) {
     return (
+      <Link to={`/sessions/${session.id}`} className="Session-link">
       <div className="Session">
           <div className="Session-icon">
             <span>
@@ -19,5 +21,6 @@ export default function Session({session}) {
           <i className="fa-solid fa-chevron-right"></i>
         </div>
       </div>
+      </Link>
     )
 }
