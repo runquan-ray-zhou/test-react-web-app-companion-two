@@ -75,3 +75,11 @@
     background-color: white;
     color: black;
 }
+
+@media screen and (max-height: 700px) {
+    .Portal img,
+    .onboarding-page img {
+        width: 50%;
+        height: auto;
+    }
+}

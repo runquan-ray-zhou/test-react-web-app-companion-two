@@ -12,13 +12,12 @@
         top: 0;
         position: fixed;
         width: 100vh;
-        height: 200px;
+        height: auto;
         display: flex;
         justify-content: center;
         img {
-            width: 100%;
+            width: auto;
             height: 200px;
-            margin-right: 30px;
         }
         .Home-hamburger {
             height: 50px;
@@ -111,3 +110,20 @@
         }           
     }
 }
+@media screen and (max-height: 700px) {
+    .Home .Home-date {
+        top: 150px;
+    }
+    .Home nav img {
+      width: 50%;
+      height: auto;
+    }
+    .Home .Home-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Home .Home-hamburger {
+        margin-left:0px;
+    }
+  }
