@@ -9,6 +9,10 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  img {
+    width: 50%;
+    height: auto;
+  }
 
   .fourthOnboarding-page-heading {
     margin-bottom: 100px;
@@ -36,7 +40,7 @@
   }
 
   p {
-    font-size: 1.4em;
+    font-size: 1em;
     font-weight: 100;
     padding: 30px;
     margin-bottom: 100px;
@@ -46,7 +50,7 @@
 
   h1 {
     padding: 20px;
-    font-size: 2.7em;
+    font-size: 2em;
     font-weight: 50;
     margin-top: 60px;
     -webkit-font-smoothing: antialiased;
@@ -77,9 +81,10 @@
 }
 
 @media screen and (max-height: 700px) {
-  .Portal img,
-  .onboarding-page img {
-    width: 50%;
-    height: auto;
+  .Portal p {
+    font-size: 1em;
+  }
+  .Portal h1 {
+    font-size: ;
   }
 }
