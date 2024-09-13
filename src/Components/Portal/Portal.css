@@ -14,9 +14,6 @@
     height: auto;
   }
 
-  .fourthOnboarding-page-heading {
-    margin-bottom: 100px;
-  }
   .thirdOnboarding-page-heading {
     margin-bottom: -30px;
   }
@@ -42,17 +39,19 @@
   p {
     font-size: 1em;
     font-weight: 100;
-    padding: 30px;
+    padding: 0px 30px;
     margin-bottom: 100px;
+    margin-top: 0px;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
   }
 
   h1 {
-    padding: 20px;
+    padding: 0px 20px;
     font-size: 2em;
     font-weight: 50;
     margin-top: 60px;
+    margin-bottom: 0px;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
   }
