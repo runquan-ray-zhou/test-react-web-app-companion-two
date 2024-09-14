@@ -94,6 +94,7 @@
     padding: 0px 20px;
   }
   .Home-date {
+    margin-bottom: -30px;
     .Session-icon {
       span {
         border: 2px solid blue;
