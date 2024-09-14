@@ -1,5 +1,6 @@
 .Home,
-.Home-container {
+.Home-container,
+.Home-main {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -8,86 +9,6 @@
   width: 100vw;
   h3 {
     margin: 0;
-  }
-  nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    text-align: center;
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    right: 0;
-    left: 0;
-    width: auto;
-    height: 60px;
-    z-index: 10;
-    background-color: #d5e9f5;
-    top: 0;
-
-    .Home-logo {
-      margin-left: 20px;
-      display: flex;
-      justify-content: start;
-      align-items: center;
-    }
-
-    .Home-hamburger {
-      height: 50px;
-      margin-right: 40px;
-    }
-    .Home-hamburger span {
-      margin-top: 20px;
-      height: 3px;
-      width: 25px;
-      background-color: black;
-      border-radius: 25px;
-      position: absolute;
-      transform: translate(-50%, -50%);
-      transition: 0.3s ease;
-    }
-    .Home-hamburger span:nth-child(1) {
-      top: 10%;
-    }
-    .Home-hamburger span:nth-child(2) {
-      top: 25%;
-    }
-    .Home-hamburger.active span:nth-child(1) {
-      top: 17%;
-      transform: translate(-50%, -50%) rotate(45deg);
-    }
-    .Home-hamburger.active span:nth-child(2) {
-      top: 17%;
-      transform: translate(-50%, -50%) rotate(-45deg);
-    }
-  }
-  .off-screen-menu {
-    background-color: #d5e9f5;
-    color: black;
-    height: 100vh;
-    width: 100%;
-    max-width: auto;
-    position: fixed;
-    z-index: 10;
-    top: 0;
-    right: -450px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 1.5em;
-    transition: 0.3s ease;
-    ul {
-      padding: 0;
-    }
-    li {
-      list-style: none;
-      margin-bottom: 30px;
-    }
-  }
-  .off-screen-menu.active {
-    right: 0;
   }
   .Home-info {
     color: #002f88;

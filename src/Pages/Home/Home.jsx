@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import arLogo from "../../assets/arLogo.svg";
 import Carousel from "../../Components/Carousel/Carousel";
 import navHero from "../../assets/navHero.svg";
+import NavBar from "../../Components/NavBar/NavBar";
 import "./Home.css";
 
 export default function Home() {
@@ -17,7 +18,8 @@ export default function Home() {
   return (
     <div className="Home">
       <div className="Home-container">
-        <div className={`off-screen-menu ${showMenu ? "active" : ""}`}>
+        <NavBar />
+        {/* <div className={`off-screen-menu ${showMenu ? "active" : ""}`}>
           <ul>
             <li onClick={() => navigate("/")}>Home</li>
             <li onClick={() => navigate("/sessions")}>Full Session List</li>
@@ -36,8 +38,8 @@ export default function Home() {
             <span></span>
             <span></span>
           </div>
-        </nav>
-        <div className="Home-container">
+        </nav> */}
+        <div className="Home-main">
           <div className="Home-info">
             <div className="Home-title">
               <h2>Welcome To ASTC Chicago 2024!</h2>
