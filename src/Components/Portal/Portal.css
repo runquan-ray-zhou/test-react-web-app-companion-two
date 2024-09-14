@@ -14,8 +14,6 @@
     background-color: #002f88;
   }
   img {
-    /* margin-top: 20px;
-    margin-bottom: 20px; */
     width: 50%;
     height: auto;
   }
@@ -91,6 +89,132 @@
   border: 1px solid #002f88;
 }
 
+.circles-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 1;
+}
+
+.outer-circle {
+  background: #002f88;
+  animation: expand-fade 3s ease-out forwards;
+}
+
+.middle-circle {
+  background: #d5e9f5;
+  animation: expand-fade 3s ease-out 0.5s forwards;
+}
+
+.inner-circle {
+  background: #002f88;
+  animation: expand-fade 3s ease-out 1s forwards;
+}
+
+@keyframes expand-fade {
+  0% {
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 1;
+  }
+
+  100% {
+    width: 300vmax;
+    height: 300vmax;
+    opacity: 0;
+  }
+}
+
+.circle-content {
+  position: relative;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  animation: reveal-content 1s ease-in forwards;
+  animation-delay: 3s; /* Adjust this to match the total duration of circle animations */
+}
+
+.onboarding-page-logo {
+  margin-bottom: 20px;
+}
+
+.onboarding-page-logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.circle-content h1 {
+  font-size: 3rem;
+  color: #002f88;
+  margin-bottom: 30px;
+}
+
+.onboarding-page-buttons {
+  margin-top: 30px;
+}
+
+.onboarding-page-buttons button {
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 15px 30px;
+  border-radius: 29px;
+  background-color: #002f88;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.onboarding-page-buttons button:hover {
+  background-color: #00408c;
+  transform: scale(1.05);
+}
+
+@keyframes reveal-content {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+  }
+}
+
+@media screen and (max-height: 600px) {
+  .circle-content h1 {
+    font-size: 2rem;
+  }
+
+  .onboarding-page-buttons button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+  }
+}
+
 @media screen and (max-height: 700px) {
   .Portal p {
     font-size: 1em;
@@ -110,5 +234,8 @@
   img {
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+  .onboarding-page-logo {
+    width: 200%;
   }
 }

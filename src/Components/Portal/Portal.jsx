@@ -16,14 +16,23 @@ export default function Portal() {
       <div className="onboarding-container">
         {onboardingPage === "firstOnboardigPage" && (
           <div className="onboarding-page">
-            <div className="onboarding-page-logo">
-              <img src={logo} alt="onboarding-logo" />
-            </div>
-            <h1>AeroGuide</h1>
-            <div className="onboarding-page-buttons">
-              <button onClick={() => setOnboardingPage("secondOnboardingPage")}>
-                Lets Fly!
-              </button>
+            <div class="circles-container">
+              <div class="circle outer-circle"></div>
+              <div class="circle middle-circle"></div>
+              <div class="circle inner-circle"></div>
+              <div class="circle-content">
+                <div className="onboarding-page-logo">
+                  <img src={logo} alt="onboarding-logo" />
+                </div>
+                <h1>AeroGuide</h1>
+                <div className="onboarding-page-buttons">
+                  <button
+                    onClick={() => setOnboardingPage("secondOnboardingPage")}
+                  >
+                    Lets Fly!
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         )}
