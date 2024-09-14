@@ -2,8 +2,8 @@
   margin-top: 30px;
   margin-left: 10px;
   margin-right: 10px;
-  width: 320px;
-  height: 320px;
+  width: 300px;
+  height: 300px;
   font-size: calc(10px + 2vmin);
   background-color: white;
   border-radius: 25px;
@@ -27,8 +27,8 @@
     }
     button {
       font-size: 0.9em;
-      margin-left: 77px;
-      margin-top: 55px;
+      margin-left: 67px;
+      margin-top: 45px;
       color: white;
       background-color: rgb(174, 48, 51);
       border: none;
@@ -37,7 +37,7 @@
     }
   }
   .EventCard-time {
-    width: 320px;
+    width: 300px;
     font-size: 1.1em;
     font-weight: 700;
     border-radius: 25px 25px 0px 0px;
