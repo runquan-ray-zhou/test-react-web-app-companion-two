@@ -1,44 +1,16 @@
-import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import arLogo from "../../assets/arLogo.svg";
 import Carousel from "../../Components/Carousel/Carousel";
-import navHero from "../../assets/navHero.svg";
 import NavBar from "../../Components/NavBar/NavBar";
 import "./Home.css";
 
 export default function Home() {
-  const [showMenu, setShowMenu] = useState(false);
-
   const navigate = useNavigate();
-
-  const handleMenu = () => {
-    setShowMenu(!showMenu);
-  };
 
   return (
     <div className="Home">
       <div className="Home-container">
         <NavBar />
-        {/* <div className={`off-screen-menu ${showMenu ? "active" : ""}`}>
-          <ul>
-            <li onClick={() => navigate("/")}>Home</li>
-            <li onClick={() => navigate("/sessions")}>Full Session List</li>
-            <li onClick={() => navigate("/scanner")}>Information Scan</li>
-            <li>Event Map</li>
-          </ul>
-        </div>
-        <nav>
-          <div className="Home-logo">
-            <img src={navHero} alt="home-navHero" />
-          </div>
-          <div
-            className={`Home-hamburger ${showMenu ? "active" : ""}`}
-            onClick={handleMenu}
-          >
-            <span></span>
-            <span></span>
-          </div>
-        </nav> */}
         <div className="Home-main">
           <div className="Home-info">
             <div className="Home-title">

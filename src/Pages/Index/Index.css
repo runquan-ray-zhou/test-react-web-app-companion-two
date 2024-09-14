@@ -1,133 +1,52 @@
 .Index,
 .Index-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  .searchbar-container {
+    margin-top: 200px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 100vw;
-    nav {
-        z-index: 10;
-        background-color: rgb(0, 46, 120);
-        top: 0;
-        position: fixed;
-        width: 100vh;
-        height: 155px;
-        display: flex;
-        justify-content: center;
-        img {
-            width: 100%;
-            height: 100px;
-            margin-right: 30px;
-        }
-        .Index-hamburger {
-            height: 50px;
-        }
-        .Index-hamburger span {
-            height: 5px;
-            width: 50px;
-            background-color: white;
-            border-radius: 25px;
-            position: absolute;
-            top: 17%;
-            margin-left: 55px;
-            transform: translate(-50%, -50%);
-            transition: .3s ease;
-        }
-        .Index-hamburger span:nth-child(1) {
-            top: 10%;
-        }
-        .Index-hamburger span:nth-child(3) {
-            top: 24%;
-        }
-        .Index-hamburger.active span:nth-child(1) {
-            top: 17%;
-            transform: translate(-50%, -50%) rotate(45deg);
-        }
-        .Index-hamburger.active span:nth-child(2) {
-            opacity: 0;
-        }
-        .Index-hamburger.active span:nth-child(3) {
-            top: 17%;
-            transform: translate(-50%, -50%) rotate(-45deg);
-        }
-        .searchbar-container {
-            
-            display: flex;
-            align-items: center;
-        
-            form {
-                display: flex;
-                align-items: center;
-            }
-        
-            input[type="text"] {
-                width: 175px;
-                height: 30px;
-                border: 1px solid black;
-                border-radius: 15px;
-                padding: 5px 30px 5px 10px;
-                font-size: 16px;
-            }
-        
-            button {
-                font-size: 1.1em;
-                background: none;
-                border: none;
-                cursor: pointer;
-                margin-left: -40px;
-            }
-        }
+    form {
+      display: flex;
+      align-items: center;
     }
-    .off-screen-menu {
-        background-image: linear-gradient(rgb(0, 46, 120) 35%, white);
-        color: white;
-        height: 100vh;
-        width: 100%;
-        max-width: auto;
-        position: fixed;
-        z-index: 10;
-        top: 0;
-        right: -450px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        font-size: 1.5em;
-        transition: .3s ease;
-        ul {
-            padding: 0;
-        }
-        li {
-            list-style: none;
-            margin-bottom: 30px;
-        }
+    input[type="text"] {
+      width: 175px;
+      height: 30px;
+      border: 1px solid black;
+      border-radius: 15px;
+      padding: 5px 30px 5px 10px;
+      font-size: 16px;
     }
-    .off-screen-menu.active {
-        right: 0;
+    button {
+      font-size: 1.1em;
+      background: none;
+      border: none;
+      cursor: pointer;
+      margin-left: -40px;
     }
-    .Index-sessions {
-        margin-top: 30%;
-        position: relative;
+  }
+  .Index-scanner-button {
+    z-index: 10;
+    bottom: 10px;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+    margin: 0px;
+    img {
+      width: 35%;
+      height: 35%;
     }
-    .Index-scanner-button {
-        z-index: 10;
-        bottom: 10px;
-        position: fixed;
-        display: flex;
-        justify-content: space-around;
-        gap: 80px;
-        margin: 0px;
-        img {
-            width: 35%;
-            height: 35%;
-        }
-        button {
-            width: max-content;
-            height: max-content;
-            background: transparent;
-            border: none;
-        }           
+    button {
+      width: max-content;
+      height: max-content;
+      background: transparent;
+      border: none;
     }
+  }
 }
