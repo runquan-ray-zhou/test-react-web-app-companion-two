@@ -1,50 +1,52 @@
 .EventCard {
-    margin-top: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 320px;
-    height: 320px;
-    font-size: calc(10px + 2vmin);
-    background-color: white;
-    border-radius: 25px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    .EventCard-info {
-        padding: 0px 20px;
-        p {
-            margin: 0px;
-        }
-        .EventCard-name {
-            padding-top: 20px;
-            font-weight: 700;
-        }
-        .EventCard-description {
-            font-weight: 700;
-        }
-        .EventCard-presenter,
-        .EventCard-location {
-            padding: 5px 0px;
-            display: flex;
-        }
-        button {
-            font-size: 0.9em;
-            margin-left: 77px;
-            margin-top: 55px;
-            color: white;
-            background-color: rgb(174, 48, 51);
-            border: none;
-            border-radius: 20px;
-            padding: 4px 8px; 
-        }
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 320px;
+  height: 320px;
+  font-size: calc(10px + 2vmin);
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  .EventCard-info {
+    padding: 0px 20px;
+    p {
+      margin: 0px;
     }
-    .EventCard-time {
+    .EventCard-name {
+      padding-top: 20px;
+      font-weight: 700;
+    }
+    .EventCard-description {
+      font-weight: 700;
+    }
+    .EventCard-presenter,
+    .EventCard-location {
+      padding: 5px 0px;
+      display: flex;
+    }
+    button {
+      font-size: 0.9em;
+      margin-left: 77px;
+      margin-top: 55px;
+      color: white;
+      background-color: rgb(174, 48, 51);
+      border: none;
+      border-radius: 20px;
+      padding: 4px 8px;
+    }
+  }
+  .EventCard-time {
     width: 320px;
     font-size: 1.1em;
     font-weight: 700;
     border-radius: 25px 25px 0px 0px;
-    background-color: rgb(213, 223, 238);
+    background-color: #002f88;
+    margin-bottom: 10px;
     p {
-        margin: 0px;
-        padding: 20px;
+      color: white;
+      margin: 0px;
+      padding: 20px;
     }
-    }
+  }
 }
