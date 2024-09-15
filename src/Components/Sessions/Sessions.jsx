@@ -4,25 +4,8 @@ import Session from "../Session/Session";
 export default function Sessions({ todaySessions }) {
   return (
     <div className="Sessions">
-      <div className="Sessions-dates">
-        <div className="Sessions-date">
-          <p>Fri, 09/27</p>
-        </div>
-        <div className="Sessions-date">
-          <p>Sat, 09/28</p>
-        </div>
-        <div className="Sessions-date">
-          <p>Sun, 09/29</p>
-        </div>
-        <div className="Sessions-date">
-          <p>Mon, 09/30</p>
-        </div>
-        <div className="Sessions-date">
-          <p>Tue, 10/01</p>
-        </div>
-      </div>
       <div className="Sessions-list">
-        <div className="Sessions-1pm">
+        <div className="Sessions-pm">
           <div className="Sessions-time">
             <p>1:00 PM</p>
           </div>
@@ -35,7 +18,7 @@ export default function Sessions({ todaySessions }) {
               <Session key={index} session={session} />
             ))}
         </div>
-        <div className="Sessions-2pm">
+        <div className="Sessions-pm">
           <div className="Sessions-time">
             <p>2:00 PM</p>
           </div>
@@ -48,7 +31,7 @@ export default function Sessions({ todaySessions }) {
               <Session key={index} session={session} />
             ))}
         </div>
-        <div className="Sessions-3pm">
+        <div className="Sessions-pm">
           <div className="Sessions-time">
             <p>3:00 PM</p>
           </div>
@@ -61,7 +44,7 @@ export default function Sessions({ todaySessions }) {
               <Session key={index} session={session} />
             ))}
         </div>
-        <div className="Sessions-4pm">
+        <div className="Sessions-pm">
           <div className="Sessions-time">
             <p>4:00 PM</p>
           </div>

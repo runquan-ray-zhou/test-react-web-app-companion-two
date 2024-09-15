@@ -1,28 +1,17 @@
 .Sessions {
   position: relative;
   display: flex;
+  justify-content: start;
+  align-items: center;
   flex-direction: column;
-  overflow: scroll;
-  width: 420px;
-  height: 100vh;
-  .Sessions-dates {
-    margin-left: 50%;
-    display: flex;
-  }
-  .Sessions-date {
-    margin-top: 25px;
-    border-top: 1px solid black;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    padding: 10px;
-    background: #002f88;
-    color: white;
-    p {
-      white-space: nowrap;
-    }
+  overflow-y: auto;
+  width: 100vw;
+  height: calc(100vh - 200px);
+  .Sessions-pm {
+    width: 100vw;
   }
   .Sessions-time {
-    margin-top: -2px;
+    width: auto;
     padding: 12px 10px;
     font-weight: 600;
     background: #002f88;
@@ -31,5 +20,8 @@
       margin: 0;
       padding-left: 40px;
     }
+  }
+  .Sessions-list {
+    border-bottom: 10px solid #002f88;
   }
 }

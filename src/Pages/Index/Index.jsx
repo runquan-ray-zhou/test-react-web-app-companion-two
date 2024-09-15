@@ -53,7 +53,7 @@ export default function Index() {
               type="text"
               name="search"
               id="search"
-              placeholder="Search Presenter"
+              placeholder="Search"
               autoComplete="off"
               onChange={handleTextChange}
             />
@@ -63,8 +63,17 @@ export default function Index() {
             </button>
           </form>
         </div>
-        <div className="Index-sessions">
-          <Sessions todaySessions={filteredSessions} />
+        <div className="Index-content">
+          <div className="Index-sessions-dates">
+            <button className="Index-sessions-date">Fri, 09/27</button>
+            <button className="Index-sessions-date">Sat, 09/28</button>
+            <button className="Index-sessions-date">Sun, 09/29</button>
+            <button className="Index-sessions-date">Mon, 09/30</button>
+            <button className="Index-sessions-date">Tue, 10/01</button>
+          </div>
+          <div className="Index-sessions">
+            <Sessions todaySessions={filteredSessions} />
+          </div>
         </div>
         <div className="Index-scanner-button">
           <button onClick={() => navigate("/scanner")}>

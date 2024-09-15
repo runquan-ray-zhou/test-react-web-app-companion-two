@@ -2,12 +2,12 @@
 .Index-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   height: 100vh;
   width: 100vw;
   .searchbar-container {
-    margin-top: 200px;
+    margin-top: 80px;
     display: flex;
     align-items: center;
     form {
@@ -29,6 +29,37 @@
       cursor: pointer;
       margin-left: -40px;
     }
+  }
+  .Index-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .Index-sessions-dates {
+    margin-left: 40%;
+    width: calc(100vw - 40%);
+    height: auto;
+    display: flex;
+    overflow-x: auto;
+    button {
+      text-wrap: nowrap;
+      margin-top: 15px;
+      border-top: 1px solid black;
+      border-bottom: none;
+      border-left: 1px solid black;
+      border-right: none;
+      box-shadow: none;
+      border-radius: 0px;
+      padding: 10px 10px;
+      background: #002f88;
+      color: white;
+      cursor: pointer;
+    }
+  }
+  .Index-sessions {
+    width: 100%;
+    height: calc(100vh - 150px);
+    overflow-y: auto;
   }
   .Index-scanner-button {
     z-index: 10;

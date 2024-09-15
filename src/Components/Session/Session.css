@@ -3,7 +3,7 @@
   flex-direction: row;
   align-items: center;
   width: 350px;
-  margin-left: 50px;
+  margin-left: 20px;
   border-bottom: 1px solid black;
 
   .Session-icon {
