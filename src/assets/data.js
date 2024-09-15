@@ -60,7 +60,7 @@ export const september27thPresentations = [
       "Heather M. Norton – Discovery Place",
     ],
     track: "Leadership and Direction",
-    description: null,
+    description: "woah",
   },
   {
     id: 2,
@@ -306,7 +306,7 @@ export const september27thPresentations = [
 ];
 export const september28thPresentations = [
   {
-    id: 1,
+    id: 17,
     time: "1:30 PM – 1:45 PM US CDT",
     title: "2175: A Youth-Created XR Game About Climate Futures",
     type: "Hands-On Showcase",
@@ -317,7 +317,7 @@ export const september28thPresentations = [
       "Play an extended reality (XR) game created by 12 teens with support from adult experts and university students in game design, storytelling, sustainability, climate science, and informal learning. The game explores a possible future world, Aridium, that is experiencing some of the impacts of climate change expected for Arizona.",
   },
   {
-    id: 2,
+    id: 18,
     time: "1:30 PM – 2:30 PM US CDT",
     title:
       "Addressing Community Priorities through Civic Engagement & Policymaking",
@@ -334,7 +334,7 @@ export const september28thPresentations = [
       "Community priorities, such as food security, public health, and pollution , sit at the intersection of science, society, and policy. Join us to consider why and how science centers might collaborate on these local issues and learn how to use “risk registers” to identify, assess, and mitigate potential obstacles.",
   },
   {
-    id: 3,
+    id: 19,
     time: "1:30 PM – 2:30 PM US CDT",
     title:
       "AI ASAP: How to Amplify Existing Hands-On Activities to Start Sharing AI Concepts with Learners",
@@ -353,7 +353,7 @@ export const september28thPresentations = [
       "AI is everywhere, from virtual assistants to images of hands with six fingers. Science and technology centers are responsible for fostering curiosity and dialogue on this emerging technology. Join us to adapt proven engagement models and relevant content to explore AI, societal impact, and empower audiences to influence our future.",
   },
   {
-    id: 4,
+    id: 20,
     time: "1:30 PM – 2:30 PM US CDT",
     title:
       "Bringing Informal STEM to Children from Underrepresented Groups Through Museum-Research Partnerships",
@@ -376,7 +376,7 @@ export const september28thPresentations = [
       "Bringing informal STEM to children from underrepresented groups through museum-research partnerships.",
   },
   {
-    id: 5,
+    id: 21,
     time: "1:30 PM – 2:30 PM US CDT",
     title:
       "Cambio Ahead: Insights on How a Change Towards Equity Is a Change for Museums’ Future",
@@ -393,7 +393,7 @@ export const september28thPresentations = [
       "As museums look towards the future it’s imperative for organizations to examine the role of systemic oppression to shift organizational practices towards equity. Join Cambio Leadership and three museums as they share strategies, insights, and frameworks to catalyze your organization and engage your Latinx communities in non-dominant STEM approaches.",
   },
   {
-    id: 6,
+    id: 22,
     time: "1:30 PM – 2:30 PM US CDT",
     title: "Four White Men Reflect on DEI",
     type: "Group Discussion",
@@ -409,7 +409,7 @@ export const september28thPresentations = [
       "STEM has a range of diversity problems. As four beneficiaries of systems of privilege, we are part of the problem but need to work to be part of the solution. We have been deliberating between ourselves but need your help to move to a more constructive understanding of these issues. Each of us will share our perspectives before opening the conversation to all present.",
   },
   {
-    id: 7,
+    id: 23,
     time: "1:30 PM – 2:30 PM US CDT",
     title: "Lightning Session: Natural History",
     type: "Lightning Session",
@@ -475,7 +475,7 @@ export const september28thPresentations = [
     ],
   },
   {
-    id: 8,
+    id: 24,
     time: "1:30 PM – 2:30 PM US CDT",
     title:
       "Mistakes WILL BE Made: Balancing Success, Failure, and Opportunity Cost in Experience Design and Beyond",
@@ -492,7 +492,7 @@ export const september28thPresentations = [
       "Although failure can be the perfect learning tool, it’s often NOT an option. The acceleration of change has created interesting dilemmas for nonprofit leaders, impacting business models and creating chaotic circumstances where the “right” decision isn’t always clear. Learn to “fail forward” gracefully and choose the best options for success.",
   },
   {
-    id: 9,
+    id: 25,
     time: "1:30 PM – 2:30 PM US CDT",
     title:
       "Planetary Health Efforts, Challenges, and Priorities: Insights from Seeding Action’s Institutional Self-Assessment",
@@ -508,7 +508,7 @@ export const september28thPresentations = [
       "This session will provide an overview of science centers’ and museums’ current planetary health efforts, the challenges they face, and their priorities for future efforts. It will cover content and programs, relationships and partnerships, research, and operational decisions related to climate change, biodiversity loss, pollution, and other environmental issues.",
   },
   {
-    id: 10,
+    id: 26,
     time: "1:30 PM – 2:30 PM US CDT",
     title:
       "Robots to the Rescue: Leveraging AI-Driven Tools for Nonprofit Marketing & Fundraising",
@@ -520,7 +520,7 @@ export const september28thPresentations = [
       "Never dabbled in AI before or not sure it's worth your time? Don't believe the hype? In this session, I'll show you how to use AI to get to 'good enough' then add your human element to get to 'great.' You'll learn how to use generative AI to craft automate tasks, personalize communications, write compelling donor appeals, analyze data, and segment lists – all without breaking the bank or needing a tech degree. Leave empowered to leverage AI, saving time and boosting your impact!",
   },
   {
-    id: 11,
+    id: 27,
     time: "1:30 PM – 2:30 PM US CDT",
     title:
       "The Value and Values of Communities of Practice: Designing for Inclusion, Challenge, and Vulnerability",
@@ -538,7 +538,7 @@ export const september28thPresentations = [
       "The Value and Values of Communities of Practice: Designing for Inclusion, Challenge and Vulnerability",
   },
   {
-    id: 12,
+    id: 28,
     time: "1:30 PM – 2:30 PM US CDT",
     title:
       "Which Comes First? The Concept Deck or the Money? Tips for Hatching Your Capital Project",
@@ -557,7 +557,7 @@ export const september28thPresentations = [
       "You’ve got an idea. But how can you fund the work to create an exhibit concept deck when you need an exhibit concept deck to get funding? This session will explore case studies, best practices, and tools for exhibit concept planning, fundraising, and project management. Next, we focus on the project concept which serves to guide the project and the team toward a common goal. We’ll discuss the most common fundraising sources and what materials and information are generally required. And we’ll share some strategies on how to reach the next project milestone without breaking the bank.",
   },
   {
-    id: 13,
+    id: 29,
     time: "1:50 PM – 2:05 PM US CDT",
     title:
       "Airborne Interactive: Elevating the Museum Experience with Spatial Computing",
@@ -570,7 +570,7 @@ export const september28thPresentations = [
       "Airborne interactive elevating the museum experience with spatial computing.",
   },
   {
-    id: 14,
+    id: 30,
     time: "2:10 PM – 2:25 PM US CDT",
     title: "Astronomy Activities for Neurodiverse Youth",
     type: "Hands-On Showcase",
@@ -582,7 +582,7 @@ export const september28thPresentations = [
       "This session will provide participants with NASA astronomy activities created in collaboration with neurodivergent youth and the educators who work with them. Session presenters will showcase activities on telescopes, solar science, data collection and rocketry. Presenters will also share strategies on co-designing activities for neurodivergent youth.",
   },
   {
-    id: 15,
+    id: 31,
     time: "2:45 PM – 3:00 PM US CDT",
     title: "Dinosaurs Will Always Be Awesome (¡Y Accesibles Para Todos!)",
     type: "Hands-On Showcase",
@@ -599,7 +599,7 @@ export const september28thPresentations = [
       "Dinosaurs belong to EVERYONE - but keeping content current creates its own challenge. Join us and enjoy a simple way to keep evolving your content here in the living science of Very Very Dead Things! (And why not, here's MetaQuest VR!)",
   },
   {
-    id: 16,
+    id: 32,
     time: "2:45 PM – 3:45 PM US CDT",
     title:
       '"Be proud!": Exhibit Design Guidance from Youth with Learning Disabilities',
@@ -617,7 +617,7 @@ export const september28thPresentations = [
       "Youth with learning disabilities (LD) worked alongside researchers and museum professionals to share insights on how to design exhibits that work for them. In this session, we will share guidelines from this work and participants will have the opportunity discuss ways to apply these insights in their own institutions.",
   },
   {
-    id: 17,
+    id: 33,
     time: "2:45 PM – 3:45 PM US CDT",
     title:
       "A Cornucopia of Stories About and Resources for Early Childhood Exhibits and Programs",
@@ -636,7 +636,7 @@ export const september28thPresentations = [
       "Looking to learn more about early childhood initiatives in exhibits and educational programs? Want to get information about resources you can use, and network with your peers to swap stories and make connections? Come learn about all this and more from our panelists, and from each other.",
   },
   {
-    id: 18,
+    id: 34,
     time: "2:45 PM – 3:45 PM US CDT",
     title:
       "Collective Futures: Reimagining Museums and Science Centers in Partnership with Indigenous Youth",
@@ -656,7 +656,7 @@ export const september28thPresentations = [
       "Explore collaborations between museums and Indigenous communities, featuring case studies from the American Museum of Natural History, Lawrence Hall of Science, and Oregon Museum of Science and Industry. Learn about the transformative nature of these partnerships and engage in facilitated small-group discussions focused on empowering youth and reshaping institutional practices.",
   },
   {
-    id: 19,
+    id: 35,
     time: "2:45 PM – 3:45 PM US CDT",
     title:
       "Inspiring Hope and Action for Planetary Health: Insights from Seeding Action and Caretakers of Wonder",
@@ -674,7 +674,7 @@ export const september28thPresentations = [
       "This session will showcase a range of strategies for museums and caregivers to help our audiences relate to climate change and other planetary health challenges in hopeful and empowering ways. It will be led by Seeding Action and Caretakers of Wonder, two networks that support science centers and museums to engage with their communities planetary health. Both groups will share evidence-based recommendations, resources, and examples for communicating in ways that spark a sense of active hope and encourage participation in solutions.",
   },
   {
-    id: 20,
+    id: 36,
     time: "2:45 PM – 3:45 PM US CDT",
     title: "Cultivating a Culture of Hope Through Local Advocacy",
     type: "Group Discussion",
@@ -685,7 +685,7 @@ export const september28thPresentations = [
     description: "Cultivating a Culture of Hope through Local Advocacy",
   },
   {
-    id: 21,
+    id: 37,
     time: "2:45 PM – 3:45 PM US CDT",
     title:
       "Data-Driven Inquiry with Digitized Specimens: Exploring Methods and Strategies for Learning with Natural History Collections",
@@ -701,7 +701,7 @@ export const september28thPresentations = [
       "Explore effective strategies for leveraging digital collections for learning in this experiential session. Dive into NSF-funded investigations, dissecting learn-by-doing approaches, harnessing digital tools for collection studies, and empowering learner agency in data collection. Gain practical insights to create your own engaging learning experiences with digitized collections.",
   },
   {
-    id: 22,
+    id: 38,
     time: "2:45 PM – 3:45 PM US CDT",
     title: "Discussion as a Method to Advance DEAI Efforts",
     type: "Group Discussion",
@@ -717,7 +717,7 @@ export const september28thPresentations = [
       "Museum staff are often reluctant to lead DEAI trainings, as they feel unequipped and fear mistakes. This session promotes informal dialogue as a practical alternative to formal training, aiming to equip attendees with the tools necessary to return to their museum and learn and grow through conversations with one another.",
   },
   {
-    id: 23,
+    id: 39,
     time: "2:45 PM – 3:45 PM US CDT",
     title: "Lightning Session: Teachers and Schools",
     type: "Lightning Session",
@@ -787,7 +787,7 @@ export const september28thPresentations = [
     ],
   },
   {
-    id: 24,
+    id: 40,
     time: "2:45 PM – 3:45 PM US CDT",
     title:
       "Playful Leadership: Making Space for Focus AND Fun in Challenging Work Environments",
@@ -803,7 +803,7 @@ export const september28thPresentations = [
       "Incorporating open-ended, creatively divergent aspects of play in front-of-the-scenes activities has led to amazing gains in learning/participation. Yet, in contrast to our pedagogy, we find ourselves, behind-the-scenes, stuck in rigidly structured work environments where engaging staff in play is often the last thing on our minds. Let’s change that together!",
   },
   {
-    id: 25,
+    id: 41,
     time: "2:45 PM – 3:45 PM US CDT",
     title:
       "The Longevity Blueprint: Exploring Experiential Depreciation and the Total Cost of Ownership of Exhibits",
@@ -820,7 +820,7 @@ export const september28thPresentations = [
       "Delve into Experiential Depreciation and its impact on the Total Cost of Ownership in visitor experiences. Learn about the decline of aesthetic, content, and tactical relevance over time, alongside strategies for preserving the integrity and appeal of experiences through proactive planning, design, and ongoing investment.",
   },
   {
-    id: 26,
+    id: 42,
     time: "2:45 PM – 3:45 PM US CDT",
     title: "The Opportunity To Start From (Almost) Scratch: What Would You Do?",
     type: "Solution Lab",
@@ -835,7 +835,7 @@ export const september28thPresentations = [
       "Three centers showcase their significant changes, prompting participants to reflect on potential changes within their own institutions.",
   },
   {
-    id: 27,
+    id: 43,
     time: "3:05 PM – 3:20 PM US CDT",
     title:
       "Escape the Backpack, Explore the Natural History Museum in a New Way!",
@@ -850,7 +850,7 @@ export const september28thPresentations = [
       "Escape the backpack, explore the natural history museum in a new way!",
   },
   {
-    id: 28,
+    id: 44,
     time: "3:25 PM – 3:40 PM US CDT",
     title:
       "Europa Prime: A STEM-Based Virtual Reality (VR) Experience and Other Digital Assets Co-Designed for Accessibility",
@@ -862,7 +862,7 @@ export const september28thPresentations = [
       "Come see and experience key aspects of a STEM-based virtual reality (VR) game, Europa Prime, and related (AR and 360) digital assets. We will showcase elements shaped extensively by a co-design process with neurodivergent learners (What are the affordances and challenges of VR for learners with sensory, attention, and/or social differences?), shifted by changes in the priorities of our museum partners (Does/Where does VR fit?), and focused by opportune timing (Given that we’re a learning game set on Europa, an icy moon of Jupiter, how can we tap into the launch of NASA’s Europa Clipper, scheduled for Oct 10?)",
   },
   {
-    id: 29,
+    id: 45,
     time: "4:00 PM – 4:15 PM US CDT",
     title:
       "Inviting Interaction in the Arts to Co-Create Inspiring and Memorable STEAM Learning Experiences",
@@ -875,7 +875,7 @@ export const september28thPresentations = [
       "Engage in an arts-integrated activity currently employed as a culminating experience in educational programming at Da Vinci Science Center in Allentown, Pennsylvania. Learn to inspire greater engagement in STEM learning through a high impact arts-forward approach that promotes creative, cross-disciplinary, accessible, and memorable experiences for all.",
   },
   {
-    id: 30,
+    id: 46,
     time: "4:00 PM – 5:00 PM US CDT",
     title:
       "Designing Exhibits About AI: Reflections, Challenges, and Opportunities",
@@ -893,7 +893,7 @@ export const september28thPresentations = [
       "How can science centers design AI experiences that are not only interactive and engaging but also promote sensemaking and encourage ethical reflection? We will share successes and challenges from designing AI exhibits across our institutions, and facilitate group discussions on topics shaped and selected by session attendees.",
   },
   {
-    id: 31,
+    id: 47,
     time: "4:00 PM – 5:00 PM US CDT",
     title: "Diversity and Inclusion in STEM Through Stories, Music, and Art",
     type: "Experiential",
@@ -904,7 +904,7 @@ export const september28thPresentations = [
       "Explore ways to include a more diverse audience in STEM through the arts. This hands-on session shares ideas, resources, and fun examples of ways NASA and our collaborators have done this, inspiring you to find ways that work for your situation. Leave with activities and ideas you can use tomorrow!",
   },
   {
-    id: 32,
+    id: 48,
     time: "4:00 PM – 5:00 PM US CDT",
     title:
       "Exploring Culturally Sustaining STEM Partnerships: A Year-Long Workshop Series",
@@ -921,7 +921,7 @@ export const september28thPresentations = [
       "Explore how museums, education researchers, teens, and communities can forge sustainable partnerships. Learn from an NSF-AISL initiative involving ten museums and universities across Boston, Chicago, and Philadelphia. Gain insights into centering youth voices and designing culturally responsive STEM programs for long-term impact.",
   },
   {
-    id: 33,
+    id: 49,
     time: "4:00 PM – 5:00 PM US CDT",
     title: "Exploring U.S. Federal Funding Opportunities",
     type: "Panel",
@@ -932,7 +932,7 @@ export const september28thPresentations = [
     description: "Exploring U.S. Federal Funding Opportunities",
   },
   {
-    id: 34,
+    id: 50,
     time: "4:00 PM – 5:00 PM US CDT",
     title: "Got Diversity? What’s Next?",
     type: "Group Discussion",
@@ -948,7 +948,7 @@ export const september28thPresentations = [
       "Since 2022, leaders of color in children’s museums, science centers, and zoos/aquaria have met informally during virtual monthly calls to share challenges and offer support through professional and personal challenges.",
   },
   {
-    id: 35,
+    id: 51,
     time: "4:00 PM – 5:00 PM US CDT",
     title:
       "Learning from Adventure Playgrounds: Creating Safe Spaces for Risky Play in a Variety of Venues",
@@ -968,7 +968,7 @@ export const september28thPresentations = [
       "‘Risky Play’ has wide-ranging and long-lasting educational and affective benefits. Risky play has historically been associated with Adventure Playgrounds – a type of supervised junkyard space or naturalized environment. This session asks whether we can learn from Adventure Playgrounds but reach a wider audience and combine other learning modalities.",
   },
   {
-    id: 36,
+    id: 52,
     time: "4:00 PM – 5:00 PM US CDT",
     title:
       "Leveraging Partnerships for Research and Learning at Two U.S. Fossil Sites",
@@ -985,7 +985,7 @@ export const september28thPresentations = [
       "Two unique natural-history museum partnerships that include proximal, active dig sites and research laboratories will share challenges and strategies employed to engage visitors in the excitement of authentic regional discoveries. Both integrate research collections into public experiences, building enthusiasm and highlighting implications for understanding the natural world and its history.",
   },
   {
-    id: 37,
+    id: 53,
     time: "4:00 PM – 5:00 PM US CDT",
     title: "Lightning Session: Learning Through Evaluation",
     type: "Lightning Session",
@@ -1057,7 +1057,7 @@ export const september28thPresentations = [
     ],
   },
   {
-    id: 38,
+    id: 54,
     time: "4:00 PM – 5:00 PM US CDT",
     title:
       "Making Space to Explore Mental Health & Humanity Content in Your Science Center",
@@ -1076,7 +1076,7 @@ export const september28thPresentations = [
       "Join this participatory session for conversation with three science centers about tackling mental health & psychology topics in facilitated programs vs. unfacilitated exhibits designed to support each other. Take away tangible strategies to leverage exhibits for positive change while fostering inclusive community programs that create safe spaces for important connections.",
   },
   {
-    id: 39,
+    id: 55,
     time: "4:00 PM – 5:00 PM US CDT",
     title:
       "Swipe Right on Research Practitioner Partnerships: How to Find 'The One' for You",
@@ -1093,7 +1093,7 @@ export const september28thPresentations = [
       "Swipe Right on Research Practitioner Partnerships: How to find “the one” for you",
   },
   {
-    id: 40,
+    id: 56,
     time: "4:00 PM – 5:00 PM US CDT",
     title: "The Challenges of Science Museums in Latin America",
     type: "Panel",
@@ -1109,7 +1109,7 @@ export const september28thPresentations = [
       "In Latin America, hands-on science centers have played an important role in the dialogue between science and society, creating innovative strategies that include the regional context. This panel aims to discuss the current role and the challenges of hands-on science centers in the region.",
   },
   {
-    id: 41,
+    id: 57,
     time: "4:20 PM – 4:35 PM US CDT",
     title:
       "Scissors to Power Drills: Empowering Young Children Through Tool Use",
@@ -1122,7 +1122,7 @@ export const september28thPresentations = [
       "Tinkering Lab, a young child’s low-tech makerspace, will present tool adaptations that give our youngest makers the autonomy to create, build and tinker on their own. Test a variety of devices, from box-making jigs to 3D-printed cardboard punches, and delve into our facilitation approach of “Welcome, Watch, Follow and Engage.”",
   },
   {
-    id: 42,
+    id: 58,
     time: "4:40 PM – 4:55 PM US CDT",
     title: "Supporting Young Learners with Brain Science",
     type: "Hands-On Showcase",
@@ -1136,7 +1136,7 @@ export const september28thPresentations = [
 
 export const september29thPresentations = [
   {
-    id: 17,
+    id: 59,
     time: "11:00 AM – 12:00 PM US CDT",
     title:
       "DJs, Drinks, and Dialogue: How Natural History Museums Are Inspiring Adults to Become Environmental Stewards",
@@ -1152,7 +1152,7 @@ export const september29thPresentations = [
     description: null,
   },
   {
-    id: 18,
+    id: 60,
     time: "11:00 AM – 12:00 PM US CDT",
     title:
       "Elevating the Youth: Co-Designing Exhibits, Programs and Teaching Models with Teens",
@@ -1168,7 +1168,7 @@ export const september29thPresentations = [
     description: null,
   },
   {
-    id: 19,
+    id: 61,
     time: "11:00 AM – 12:00 PM US CDT",
     title:
       "Every Moment Matters: Elevating Guest Experiences for Relationship and Revenue Growth",
@@ -1184,7 +1184,7 @@ export const september29thPresentations = [
     description: null,
   },
   {
-    id: 20,
+    id: 62,
     time: "11:00 AM – 12:00 PM US CDT",
     title: "From Passion to Impact: Women Leading in Science Engagement",
     type: "Panel",
@@ -1200,7 +1200,7 @@ export const september29thPresentations = [
     description: null,
   },
   {
-    id: 21,
+    id: 63,
     time: "11:00 AM – 12:00 PM US CDT",
     title:
       "Global Perspectives of Outdoor Science Parks: Benefiting from What We Learned over 25 Years!",
@@ -1220,7 +1220,7 @@ export const september29thPresentations = [
     description: null,
   },
   {
-    id: 22,
+    id: 64,
     time: "11:00 AM – 12:00 PM US CDT",
     title:
       "Building Capacity for Program Design: Utilizing Logic Models in the Voya STEM Futures Program",
@@ -1237,7 +1237,7 @@ export const september29thPresentations = [
     description: null,
   },
   {
-    id: 23,
+    id: 65,
     time: "11:00 AM – 12:00 PM US CDT",
     title: "Lightning Session: Teens and Youth Engagement",
     type: "Lightning Session",
@@ -1263,7 +1263,7 @@ export const september29thPresentations = [
     description: null,
   },
   {
-    id: 24,
+    id: 66,
     time: "11:00 AM – 12:00 PM US CDT",
     title:
       "Mirror, Mirror on the Wall; Does This Exhibit Reflect the Community at All?",
@@ -1279,7 +1279,7 @@ export const september29thPresentations = [
     description: null,
   },
   {
-    id: 25,
+    id: 67,
     time: "11:00 AM – 12:00 PM US CDT",
     title:
       "Navigating Identity: Challenges and Opportunities in Using Terminology for Cultural Groups in Cultural Institutions",
@@ -1297,7 +1297,7 @@ export const september29thPresentations = [
     description: null,
   },
   {
-    id: 26,
+    id: 68,
     time: "11:00 AM – 12:00 PM US CDT",
     title:
       "Not 'Just' an Intern: Building Authentic Pathways for Teen Employment Programs",
@@ -1313,7 +1313,7 @@ export const september29thPresentations = [
     description: null,
   },
   {
-    id: 27,
+    id: 69,
     time: "11:00 AM – 12:00 PM US CDT",
     title:
       "Object Elicitation Interviews: Engaging Youth in Conversations About Their STEM Learning Through Making",
@@ -1330,7 +1330,7 @@ export const september29thPresentations = [
     description: null,
   },
   {
-    id: 28,
+    id: 70,
     time: "11:00 AM – 12:00 PM US CDT",
     title:
       "People and Policy: Strategies to Leverage Public Partnerships to Advance Organizational Goals and Museum Priorities",
@@ -1347,7 +1347,7 @@ export const september29thPresentations = [
     description: null,
   },
   {
-    id: 29,
+    id: 71,
     time: "12:15 PM – 1:45 PM US CDT",
     title: "Alan J. Friedman Science Center Dialogues Luncheon",
     type: "Luncheon",
@@ -1358,7 +1358,7 @@ export const september29thPresentations = [
     description: null,
   },
   {
-    id: 30,
+    id: 72,
     time: "2:00 PM – 3:00 PM US CDT",
     title:
       "Cutting Edge: Meet the People and Projects of the Roy L Shafer Leading Edge Awards",
@@ -1370,7 +1370,7 @@ export const september29thPresentations = [
     description: null,
   },
   {
-    id: 31,
+    id: 73,
     time: "2:00 PM – 3:00 PM US CDT",
     title:
       "Engaging Curiosity: Exploring Best Practices for STEM Camps in Museum Settings",
@@ -1386,7 +1386,7 @@ export const september29thPresentations = [
     description: null,
   },
   {
-    id: 32,
+    id: 74,
     time: "2:00 PM – 3:00 PM US CDT",
     title: "Engaging Scientists with the Public in Natural History Museums",
     type: "Group Discussion",
@@ -1402,7 +1402,7 @@ export const september29thPresentations = [
     description: null,
   },
   {
-    id: 33,
+    id: 75,
     time: "2:00 PM – 3:00 PM US CDT",
     title: "Exhibits² Debates Round²: New Topics, New Teams, Same Shenanigans",
     type: "Experiential",
@@ -1424,7 +1424,7 @@ export const september29thPresentations = [
     description: null,
   },
   {
-    id: 34,
+    id: 76,
     time: "2:00 PM – 3:00 PM US CDT",
     title:
       "IDEAs at Work: Exploration of Creative Approaches to Inclusion, Diversity, Equity, and Accessibility",
@@ -1441,7 +1441,7 @@ export const september29thPresentations = [
     description: null,
   },
   {
-    id: 35,
+    id: 77,
     time: "2:00 PM – 3:00 PM US CDT",
     title:
       "Leading with the Arts: Centering Arts-Based Methods for Deeper Science Learning",
@@ -1458,7 +1458,7 @@ export const september29thPresentations = [
     description: null,
   },
   {
-    id: 36,
+    id: 78,
     time: "2:00 PM – 3:00 PM US CDT",
     title: "Lightning Session: Collaboration",
     type: "Lightning Session",
@@ -1480,7 +1480,7 @@ export const september29thPresentations = [
     description: null,
   },
   {
-    id: 37,
+    id: 79,
     time: "2:00 PM – 3:00 PM US CDT",
     title:
       "Museums and Health Education: Connecting Science, Community, and Culture",
@@ -1496,7 +1496,7 @@ export const september29thPresentations = [
     description: null,
   },
   {
-    id: 38,
+    id: 80,
     time: "2:00 PM – 3:00 PM US CDT",
     title:
       "Navigating Methods for Integrating Community Knowledge and Values into Museum Practice",
@@ -1512,7 +1512,7 @@ export const september29thPresentations = [
     description: null,
   },
   {
-    id: 39,
+    id: 81,
     time: "2:00 PM – 3:00 PM US CDT",
     title:
       "Recipes for Community: Maintaining Authenticity While Integrating Food and Culture into STEM Activities",
@@ -1528,7 +1528,7 @@ export const september29thPresentations = [
     description: null,
   },
   {
-    id: 40,
+    id: 82,
     time: "2:00 PM – 3:00 PM US CDT",
     title:
       "Re-EnVISIONed: Linking Multiple Approaches to Develop More Accessible Experiences for Blind and Low-Vision Visitors",

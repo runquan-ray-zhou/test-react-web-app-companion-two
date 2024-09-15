@@ -2,21 +2,23 @@ import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import arLogo from "../../assets/arLogo.svg";
 import NavBar from "../../Components/NavBar/NavBar";
-import { september28thPresentations } from "../../assets/data";
+import {
+  september28thPresentations,
+  september27thPresentations,
+  september29thPresentations,
+} from "../../assets/data";
 import Sessions from "../../Components/Sessions/Sessions";
 import "./Index.css";
 
 export default function Index() {
-  const [todaySessions, setTodaySessions] = useState(
-    september28thPresentations
-  );
+  const [todaySessions, setTodaySessions] = useState([]);
   const [filteredSessions, setFilteredSessions] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
 
   const navigate = useNavigate();
 
   useEffect(() => {
-    setTodaySessions(september28thPresentations);
+    setTodaySessions(september27thPresentations);
   }, []);
 
   useEffect(() => {
@@ -43,6 +45,17 @@ export default function Index() {
     });
   }
 
+  function handleDateChange(date) {
+    if (date === "Fri, 09/27") {
+      setTodaySessions(september27thPresentations);
+    } else if (date === "Sat, 09/28") {
+      setTodaySessions(september28thPresentations);
+    } else if (date === "Sun, 09/29") {
+      setTodaySessions(september29thPresentations);
+    }
+    setSearchQuery("");
+    setFilteredSessions([]);
+  }
   return (
     <div className="Index">
       <div className="Index-container">
@@ -65,9 +78,39 @@ export default function Index() {
         </div>
         <div className="Index-content">
           <div className="Index-sessions-dates">
-            <button className="Index-sessions-date">Fri, 09/27</button>
-            <button className="Index-sessions-date">Sat, 09/28</button>
-            <button className="Index-sessions-date">Sun, 09/29</button>
+            <button
+              style={
+                todaySessions === september27thPresentations
+                  ? { backgroundColor: "#002f88", color: "#ffffff" }
+                  : { backgroundColor: "#ffffff", color: "#000000" }
+              }
+              className="Index-sessions-date"
+              onClick={() => handleDateChange("Fri, 09/27")}
+            >
+              Fri, 09/27
+            </button>
+            <button
+              style={
+                todaySessions === september28thPresentations
+                  ? { backgroundColor: "#002f88", color: "#ffffff" }
+                  : { backgroundColor: "#ffffff", color: "#000000" }
+              }
+              className="Index-sessions-date"
+              onClick={() => handleDateChange("Sat, 09/28")}
+            >
+              Sat, 09/28
+            </button>
+            <button
+              style={
+                todaySessions === september29thPresentations
+                  ? { backgroundColor: "#002f88", color: "#ffffff" }
+                  : { backgroundColor: "#ffffff", color: "#000000" }
+              }
+              className="Index-sessions-date"
+              onClick={() => handleDateChange("Sun, 09/29")}
+            >
+              Sun, 09/29
+            </button>
             <button className="Index-sessions-date">Mon, 09/30</button>
             <button className="Index-sessions-date">Tue, 10/01</button>
           </div>
