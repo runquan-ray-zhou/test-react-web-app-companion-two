@@ -60,7 +60,8 @@ export const september27thPresentations = [
       "Heather M. Norton – Discovery Place",
     ],
     track: "Leadership and Direction",
-    description: "woah",
+    description:
+      "Come join a 'safe space' for CEOs, EDs, VPs, and C-suite leaders to engage in critical discussions and imaginative thinking on change, disruption, and business transformation. We will focus on pressing, relevant topics with near-peer leaders in this cafe-style solution room to develop long-term strategies for the future.",
   },
   {
     id: 2,
@@ -75,7 +76,8 @@ export const september27thPresentations = [
       "Roderick H. Tate – TELUS Spark",
     ],
     track: "Facility and Exhibit Design",
-    description: null,
+    description:
+      "Participants will engage in multiple immersive experiences at the Griffin Museum of Science and Industry, discuss their potential for deeper engagement with science content, learn about advantages and limitations of these immersive platforms, and discuss early learnings for best practices in developing content.",
   },
   {
     id: 3,
@@ -91,7 +93,8 @@ export const september27thPresentations = [
       "Celeste Moreno – University of Colorado, Boulder",
     ],
     track: "Education and Events",
-    description: null,
+    description:
+      "Join us for a hands-on session exploring books as sparks to create with code and physical materials. We’ll share learnings from our communities and reflect on how to activate these ideas in your space.",
   },
   {
     id: 4,
@@ -110,7 +113,8 @@ export const september27thPresentations = [
       "Emily Reardon – Sesame Workshop",
     ],
     track: "Audience, Diversity, and Inclusion",
-    description: null,
+    description:
+      "If we want Artificial Intelligence (AI) to prioritize our well-being, values, and thrive on diversity, we need to enable everyone to direct its future. This workshop will explore fostering human agency with AI through community engagement strategies and experiences in informal spaces for human growth, creativity, and social connection.",
   },
   {
     id: 5,
@@ -126,7 +130,8 @@ export const september27thPresentations = [
       "Tara Cox – National Girls Collaborative Project",
     ],
     track: "Audience, Diversity, and Inclusion",
-    description: null,
+    description:
+      "Calling all gender equity advocates! We’re unveiling the IF/THEN® Champions Network. This half-day intensive, designed for current IF/THEN® Champions, will include time to meet with others to connect around the shared goal of increasing gender equity in STEM.",
   },
   {
     id: 6,
@@ -141,7 +146,8 @@ export const september27thPresentations = [
       "Theresa A. Donofrio, PhD – Association of Science and Technology Centers",
     ],
     track: "Education and Events",
-    description: null,
+    description:
+      "Environmental communications are seldom uplifting. This is understandable given the gravity and urgency of the challenges, but this fatalistic discourse inhibits public participation in solutions. Participants will clarify their visions of a healthy, thriving future for all and build capacity to support their visitors and communities in doing the same.",
   },
   {
     id: 7,
@@ -153,7 +159,8 @@ export const september27thPresentations = [
     sessionLeader: "Karl Bitikofer – Field Museum",
     presenters: [],
     track: "Education and Events",
-    description: null,
+    description:
+      "Experience crafting a working cart using tools and materials that mimic what was available when the wheel was first invented. Learn tricks to accelerate the design process so that students can build as quickly as they can learn. Discuss how to make lessons that teach about people, without 'othering' them.",
   },
   {
     id: 8,
@@ -169,7 +176,8 @@ export const september27thPresentations = [
       "Tifferney White – Louisiana Children's Museum",
     ],
     track: "Audience, Diversity, and Inclusion",
-    description: null,
+    description:
+      "In this half-day—iPAGE in a nutshell—workshop, we will engage participants in an exploration of the iPAGE Framework for Access and Equity, sharing several of the most powerful learning modules, tools, models, and frameworks that are emerging from this work.",
   },
   {
     id: 9,
@@ -185,7 +193,8 @@ export const september27thPresentations = [
       "Jennifer C. Zurawicz – Griffin Museum of Science and Industry",
     ],
     track: "Trends and Innovation",
-    description: null,
+    description:
+      "Engage in a day-long session with the Griffin Museum of Science and Industry’s Wanger Family Fab Lab. Make_X is a unique tool, giving both the educator and the learner paths to unlocking the capacities and capabilities of a learning environment, created over time and one belt at a time, building a digital mosaic of their learning experience.",
   },
   {
     id: 10,
@@ -200,7 +209,8 @@ export const september27thPresentations = [
       "Sarabeth Gordon – Pensacola MESS Hall",
     ],
     track: "Education and Events",
-    description: null,
+    description:
+      "Bring science to the people! NEON addresses all things related to outreach, with speakers, hands-on activities, small group discussions, the nuts and bolts of demonstrations, how to serve a wide variety of audiences, and more! Rookies and veteran educators alike will benefit from the exchange of outreach ideas.",
   },
   {
     id: 11,
@@ -218,7 +228,8 @@ export const september27thPresentations = [
       "Peter Kirschmann – University of Wisconsin-Madison",
     ],
     track: "Education and Events",
-    description: null,
+    description:
+      "Makerspaces and maker-based learning experiences have long provided generative learning experiences for museums. This workshop will interactively engage participants in evaluative and reflective activities built around maker-based learning experiences. Participants will leave this session with tools and activities for their own teams and partners.",
   },
   {
     id: 12,
@@ -236,7 +247,8 @@ export const september27thPresentations = [
       "Roderick H. Tate – TELUS Spark",
     ],
     track: "Facility and Exhibit Design",
-    description: null,
+    description:
+      "Museums are creating digital immersive exhibitions, with some museums working to understand how these experiences can fulfill their missions. In this workshop, learn about different museums’ digital immersive exhibitions, and engage in discussions about the specifications and visitor interactions you might employ to make your spaces compelling, interactive, and flexible.",
   },
   {
     id: 13,
@@ -253,7 +265,8 @@ export const september27thPresentations = [
       "Corey Thomas",
     ],
     track: "Organizational Culture and Workforce",
-    description: null,
+    description:
+      "So often, conferences only afford short moments to build connections, relationships, and share strategies to survive and thrive in our organizations. The first annual Fo(u)r (H)our BIPOC Space will provide an entry point for people holding BIPOC identities to begin their conference experience in joy, connection, strategy-sharing and community.",
   },
   {
     id: 14,
@@ -271,7 +284,8 @@ export const september27thPresentations = [
       "Karin G. Klein, PhD – Griffin Museum of Science and Industry",
     ],
     track: "Education and Events",
-    description: null,
+    description:
+      "The Next Generation Science Standards promote three-dimensional, phenomenon driven, student-centered approaches to teaching and learning. In this session, you will develop an understanding of the standards themselves and how the instructional approaches required to enact them can inform, support, and improve programming in both formal and informal education settings.",
   },
   {
     id: 15,
@@ -286,7 +300,8 @@ export const september27thPresentations = [
       "Nancy Harmon – Encurate",
     ],
     track: "Community and Partnerships",
-    description: null,
+    description:
+      "Join us at the International Museum of Surgical Science for an interactive session exploring how to create an exhibition providing multiple points of view using existing resources.",
   },
   {
     id: 16,
@@ -301,7 +316,8 @@ export const september27thPresentations = [
       "Ali Jackson, M.Ed – Sciencenter",
     ],
     track: "Community and Partnerships",
-    description: null,
+    description:
+      "This workshop will explore how to develop reciprocal partnerships with communities, co-create STEM learning experiences, and center diversity, equity, accessibility, inclusion, and belonging. Participants will learn principles and practices from a study of four projects, take part in discussions and activities, and leave with resources to continue their work.",
   },
 ];
 export const september28thPresentations = [
@@ -1149,7 +1165,8 @@ export const september29thPresentations = [
       "Jacqueline Handy (she/her/hers) – American Museum of Natural History",
     ],
     track: "Education and Events",
-    description: null,
+    description:
+      "Join three of the largest Natural History Museums in a discussion around adult programs and how these social events can increase awareness and activism for ecological issues. Explore different approaches, then turn down the lights and create a program together with music, activities, and a speed date with a scientist.",
   },
   {
     id: 60,
@@ -1165,7 +1182,8 @@ export const september29thPresentations = [
       "Amelia Merker – New York Hall of Science",
     ],
     track: "Education and Events",
-    description: null,
+    description:
+      "What does it mean to see young people as collaborators? How can we better incorporate their voices and ideas into the design of our programs and exhibits? We'll share some mindsets, strategies, and tools to better serve our young people by giving them more opportunities to contribute to our work.",
   },
   {
     id: 61,
@@ -1181,7 +1199,8 @@ export const september29thPresentations = [
       "Tyler Begneaud – Scott Family Amazeum",
     ],
     track: "Operations and Development",
-    description: null,
+    description:
+      "Join us for a transformative session with TELUS Spark and the Scott Family Amazeum, unveiling the art of exceptional guest service. Learn practical strategies to align service with values, master guest recovery, and drive revenue growth. Elevate your museum's success with insights tailored for impactful guest experiences.",
   },
   {
     id: 62,
@@ -1197,7 +1216,8 @@ export const september29thPresentations = [
       "Erin Graham – Oregon Museum of Science and Industry",
     ],
     track: "Leadership and Direction",
-    description: null,
+    description:
+      "This inspiring panel of women with unique STEM career paths will offer valuable insights into advancing humanity through STEM, identifying and seizing opportunities, overcoming challenges, and strategies for professional growth. Join for illumination on how to build an impactful career that is meaningful for yourself and our world.",
   },
   {
     id: 63,
@@ -1217,7 +1237,8 @@ export const september29thPresentations = [
       "Thorsten D. Künnemann – Swiss Science Center Technorama",
     ],
     track: "Facility and Exhibit Design",
-    description: null,
+    description:
+      "Festive Global session inspires developers of Outdoor Science Parks, providing examples, stories, analyzing successes and failures, presenting OSP’s geographical, physical, and social environments. Starting from the 25 year old Clore Garden of Science, choice of themes and exhibit ideas, using natural elements, fostering innovation and inventiveness among the younger generation are highlighted. Participants will share ideas for developing OSP in their community.\nTopics include: making use of natural phenomena in diversely designed landscapes, urban biodiversity gardens, additional phenomena outdoors than planned, Education and content development, OSP evolution, the concept of new OSP like the new 2024 Clore Garden of Science.",
   },
   {
     id: 64,
@@ -1234,7 +1255,8 @@ export const september29thPresentations = [
       "Carly Domanico",
     ],
     track: "Education and Events",
-    description: null,
+    description:
+      "Learn how logic models can be used to empower staff who design education programming!",
   },
   {
     id: 65,
@@ -1260,7 +1282,100 @@ export const september29thPresentations = [
       "Nicholas A. Felts, PhD – Griffin Museum of Science and Industry",
     ],
     track: "Lightning Session",
-    description: null,
+    description: [
+      {
+        title:
+          "Beyond Workforce Development: Using STEM to Foster Youth Leadership and Advance Social Justice",
+        presenters: [
+          {
+            name: "Anita Krishnmaurthi",
+            affiliation: "Afterschool Alliance",
+          },
+          {
+            name: "Joseph Adamji",
+            affiliation: "Science Museum of Minnesota",
+          },
+          {
+            name: "Laura Lerman",
+            affiliation: "California Academy of Sciences",
+          },
+        ],
+      },
+      {
+        title:
+          "BROADENING HORIZONS: Using Unique Field Experiences to Introduce Diverse Audiences to STEM Fields",
+        description:
+          "Explore the benefits and challenges of experiential travel programs for youth. Presenters will provide attendees with examples of two vastly different and very successful field experience programs. These programs are designed to introduce participants from traditionally underserved and underrepresented communities in STEM to possible careers in these fields.",
+        presenters: [
+          {
+            name: "Alix Cotumaccio",
+            affiliation: "Wildlife Conservation Society, Bronx Zoo",
+          },
+          {
+            name: "JonDarr Bradshaw",
+            affiliation: "Great Lakes Science Center",
+          },
+        ],
+      },
+      {
+        title:
+          "Building and Diversifying STEM Program Pathways for Teens at the Adler Planetarium",
+        description:
+          "Discover how the Adler Planetarium tackled the underrepresentation of Black and Latinx students in their STEM programs. Through IMLS funding, they expanded middle school pathways, diversified recruitment, and improved retention strategies. Learn from their successes, challenges, and adaptable strategies for fostering inclusive STEM pathways.",
+        presenters: [
+          {
+            name: "Kelly Borden",
+            affiliation: "Adler Planetarium",
+          },
+          {
+            name: "Lauren Wisbrock",
+            affiliation: "Adler Planetarium",
+          },
+        ],
+      },
+      {
+        title: "Transforming Teen Programs: For Teens, by Teens",
+        presenters: [
+          {
+            name: "Mariana Alliatti Joaquim",
+            affiliation: "Natural History Museum of Utah",
+          },
+          {
+            name: "Erin Shupe",
+            affiliation: "Natural History Museum of Utah",
+          },
+          {
+            name: "Brianna Frazier",
+            affiliation: "Natural History Museum of Utah",
+          },
+        ],
+      },
+      {
+        title:
+          "Youth Belonging: Creating a Survey Instrument for Cultural Institutions",
+        presenters: [
+          {
+            name: "Nicholas Felts",
+            affiliation: "Griffin Museum of Science and Industry",
+          },
+          {
+            name: "Lauren Applebaum",
+            affiliation: "Griffin Museum of Science and Industry",
+          },
+        ],
+      },
+      {
+        title: "Youth Volunteers: Engagement Beyond the Galleries",
+        description:
+          "Teen volunteers can more than just work as gallery docents! This talk will introduce our Youth CR3W program, the model we use for youth volunteer engagement, as well as what non-docent work our students have been doing, and how your organization can benefit from harnessing their hard work and creativity.",
+        presenters: [
+          {
+            name: "Morgan Rehnberg",
+            affiliation: "Adventure Science Center",
+          },
+        ],
+      },
+    ],
   },
   {
     id: 66,
@@ -1276,7 +1391,8 @@ export const september29thPresentations = [
       "Fran Mast, MEd – The Morton Arboretum",
     ],
     track: "Community and Partnerships",
-    description: null,
+    description:
+      "Museum exhibits have evolved from focusing on objects and concepts to telling stories about, for, and with the people in their communities. In this session, we will gain insight into how our presenters' institutions create community-focused exhibits and hear advice about how other institutions can emulate their successes and learn from their missteps.",
   },
   {
     id: 67,
@@ -1294,7 +1410,8 @@ export const september29thPresentations = [
       "Gabby Lisella – Carnegie Science Center",
     ],
     track: "Audience, Diversity, and Inclusion",
-    description: null,
+    description:
+      "Join our panel as we navigate the evolving discourse on identity and cultural representation post-social justice movements. We'll explore the challenges and opportunities in employing terms like BIPOC, ALANA, Latinx, and Latine within cultural institutions. Learn how to foster inclusivity, adapt to linguistic fluidity, and develop language access tools.",
   },
   {
     id: 68,
@@ -1310,7 +1427,8 @@ export const september29thPresentations = [
       "Ren Martin – Arizona Science Center",
     ],
     track: "Organizational Culture and Workforce",
-    description: null,
+    description:
+      "Think about your first internship…did you feel valued at the company? Interns are often overlooked and given menial tasks due to their age or lack of high-level skills. High school interns in museum settings are not the exception to this trend; however, we are uniquely positioned to create meaningful experiences for these young people. Learn about the high school internship program models of the Arizona Science Center, the California Science Center, the Museum of Science, Boston and the Science Museum of Minnesota. Discuss ideas with your colleagues about how to elevate the high school internship program at your institution.",
   },
   {
     id: 69,
@@ -1327,7 +1445,8 @@ export const september29thPresentations = [
       "Jad Eways, Master's degree, Urban Education and Leadership – Cesar Chavez Foundation",
     ],
     track: "Audience, Diversity, and Inclusion",
-    description: null,
+    description:
+      "Object elicitation interviews: Engaging youth in conversations about their STEM learning through making",
   },
   {
     id: 70,
@@ -1344,18 +1463,8 @@ export const september29thPresentations = [
       "Erica Olivares-Vincent, Esq. – COSI",
     ],
     track: "Community and Partnerships",
-    description: null,
-  },
-  {
-    id: 71,
-    time: "12:15 PM – 1:45 PM US CDT",
-    title: "Alan J. Friedman Science Center Dialogues Luncheon",
-    type: "Luncheon",
-    location: "S100-Grand Ballroom",
-    sessionLeader: null,
-    presenters: [],
-    track: null,
-    description: null,
+    description:
+      "This session explores the symbiotic relationship between museums and public policy, showcasing strategies that advance individual institutional goals and contributes to the broader development of the industry. Through interactive discussions and real-world case studies, we will elucidate the power of engaging elected officials in shaping policies that directly impact museums.",
   },
   {
     id: 72,
@@ -1367,7 +1476,8 @@ export const september29thPresentations = [
     sessionLeader: "Jonah Cohen – McWane Science Center",
     presenters: [],
     track: "Trends and Innovation",
-    description: null,
+    description:
+      "The Roy L Shafer Leading Edge Awards honor achievement and innovation in the science center field. Meet past winners of The Edgies, from centers large and small. You'll hear about exhibits, education programs, community partnerships, DEI initiatives and more. Session-goers will network with the Leading Edge winners, have face-to-face Q&A and learn how they did it.",
   },
   {
     id: 73,
@@ -1383,7 +1493,8 @@ export const september29thPresentations = [
       "Danae Pineda, Bachelor's in Communication Sciences – Children's Museum Tucson",
     ],
     track: "Education and Events",
-    description: null,
+    description:
+      "Engaging Curiosity: Exploring Best Practices for STEM Camps in Museum Settings",
   },
   {
     id: 74,
@@ -1399,7 +1510,8 @@ export const september29thPresentations = [
       "Efrain Tejada – Smithsonian National Museum of Natural History",
     ],
     track: "Education and Events",
-    description: null,
+    description:
+      "Studies show that many visitors are unaware of how museum collections are used in research and education. This session will share current work from five natural history museums where scientists engage the public with their collections. Participants will leave with new ideas to connect scientists and audiences and increase the public perceptions of the value of museum collections.",
   },
   {
     id: 75,
@@ -1421,7 +1533,8 @@ export const september29thPresentations = [
       "Paul Siboroski – Fleet Science Center",
     ],
     track: "Facility and Exhibit Design",
-    description: null,
+    description:
+      "Join an talented panel of experience professionals as we debate the ins and outs and ups and downs of hands-on interactive development, creation, maintenance, and management. From soup to nuts, to bolts and screws; we will debate, and you, the audience, will decide the next winner of Exhibits² Debates: Round².",
   },
   {
     id: 76,
@@ -1438,7 +1551,8 @@ export const september29thPresentations = [
       "KT Todd, EdD – Children's Museum of Pittsburgh",
     ],
     track: "Leadership and Direction",
-    description: null,
+    description:
+      "In this session, we bring together three leaders from a diverse array of ASTC member institutions to discuss how they have creatively approached leadership-level inclusion, diversity, equity, and accessibility (IDEA) efforts within their organizations while being mindful of the unique needs of their communities and staff.",
   },
   {
     id: 77,
@@ -1455,7 +1569,8 @@ export const september29thPresentations = [
       "Ruth Angus, PhD – American Museum of Natural history",
     ],
     track: "Trends and Innovation",
-    description: null,
+    description:
+      "How can the arts be more than a 'hook'? In STEAM, the arts are often used in service of traditional science activities. This session spotlights results from three projects that authentically applied the distinctive expertise and practices of artistic disciplines (visual arts, dance, and theater) to enhance science learning.",
   },
   {
     id: 78,
@@ -1477,7 +1592,87 @@ export const september29thPresentations = [
       "Scott Randol, PhD – Oregon Museum of Science and Industry",
     ],
     track: "Lightning Session",
-    description: null,
+    description: [
+      {
+        title:
+          "Community Curation: Local Partnerships, Fund Development, and Exhibit Design",
+        description:
+          "How can community partners - from businesses and industry facilities to universities - be engaged in the exhibit curation process? How does strong collaboration between exhibition and development departments in this process reinforce the museum's ties to key donors, sponsors, and partners? Presenters in this session will share examples of community partnerships that can support both exhibition development and fund development, and discuss the ways that strong working relationships between a museum's curation/exhibition and development teams can result in engaging, community-oriented, locally-inspired exhibits. Presenters will discuss how this 'community curation' strategy can be particularly meaningful for institutions with limited holdings/collections.",
+        presenters: [
+          {
+            name: "Emily Stewart",
+            affiliation: "Museum of Science & Technology (MOST)",
+          },
+          {
+            name: "Kelly Gardner",
+            affiliation: "Museum of Science & Technology (MOST)",
+          },
+        ],
+      },
+      {
+        title: "Epicenter Partnership for Earthquake Resilience",
+        presenters: [
+          {
+            name: "Scott Randol",
+            affiliation: "Oregon Museum of Science and Industry",
+          },
+          {
+            name: "Jenny Crayne",
+            affiliation: "Oregon Museum of Science and Industry",
+          },
+        ],
+      },
+      {
+        title:
+          "Scaling Community and Museum Partnerships for the Implementation of Youth Environmental Justice Research Programs",
+        presenters: [
+          {
+            name: "Aujanee Young",
+            affiliation: "University of California, Berkeley",
+          },
+          {
+            name: "Alex Sanchez",
+            affiliation: "The Lawrence Hall of Science",
+          },
+          {
+            name: "Colleen Sutherland",
+            affiliation: "",
+          },
+        ],
+      },
+      {
+        title:
+          "Science Storytelling: How Can Community Collaborations Become More Equitable and Inclusive?",
+        description:
+          "Ice Worlds is an NSF-funded media project that has led to the development of culturally appropriate informal science learning experiences for Indigenous youth, as well as new approaches to collaborative environmental storytelling with Native communities. We will share models, evaluation frameworks, clips and insights from these challenging and valuable partnerships.",
+        presenters: [
+          {
+            name: "Deborah Raksany",
+            affiliation: "Giant Screen Films",
+          },
+          {
+            name: "Patrica Loew",
+            affiliation: "Northwestern University",
+          },
+        ],
+      },
+      {
+        title:
+          "Tracking Inclusive Exhibit Design: A New Tool for Accountability",
+        description:
+          "The Exploratorium shares a tool used to center inclusive principles while designing exhibits for the Kiewit Luminarium. Our goal is to equip audience members with an understanding of the tool's development, implementation, and what we learned through its use. We'll also prepare you to use this tool at your institution!",
+        presenters: [
+          {
+            name: "Julia Nee",
+            affiliation: "Exploratorium",
+          },
+          {
+            name: "Emily Mwaja",
+            affiliation: "Kiewit Luminarium",
+          },
+        ],
+      },
+    ],
   },
   {
     id: 79,
@@ -1493,7 +1688,8 @@ export const september29thPresentations = [
       "Rachel Fyler – Museum of Science, Boston",
     ],
     track: "Community and Partnerships",
-    description: null,
+    description:
+      "Guided by insights from policy experts and informal science educators, explore how museums can respond to current challenges in youth health education. Learn about and share ideas for supporting high-quality, accurate, and inclusive health programming through thoughtful design strategies, inquiry-based science learning, and creative community partnerships.",
   },
   {
     id: 80,
@@ -1509,7 +1705,8 @@ export const september29thPresentations = [
       "Kristin Leigh – Explora",
     ],
     track: "Community and Partnerships",
-    description: null,
+    description:
+      "Community involvement in the development of museum experiences can take many forms, but which methods are most appropriate for your institution and the communities you serve? This session will explore community-engaged approaches at different scales — from small-scale co-design projects, to large-scale community listening sessions, and long-term co-creation efforts.",
   },
   {
     id: 81,
@@ -1525,7 +1722,8 @@ export const september29thPresentations = [
       "Hardin Engelhardt – Marbles Kids Museum",
     ],
     track: "Audience, Diversity, and Inclusion",
-    description: null,
+    description:
+      "Recipes for Community: maintaining authenticity while integrating food and culture into STEM activities",
   },
   {
     id: 82,
@@ -1542,6 +1740,474 @@ export const september29thPresentations = [
       "Tim Ogino, MS, MEd – CU Science Discovery",
     ],
     track: "Audience, Diversity, and Inclusion",
+    description:
+      "This session tells the story of Explora’s path to redefine what it means to be an interactive science museum for all. Panelists will share the development and impact of two initiatives that engaged community and youth in creating opportunities for more BLV visitors to experience the joys of science.",
+  },
+];
+
+export const september30thPresentations = [
+  {
+    id: 83,
+    time: "11:15 AM – 12:15 PM US CDT",
+    title:
+      "Going Beyond the Press Release: How to Navigate a Changing Media Landscape",
+    type: "Solution Lab",
+    location: "S105D",
+    sessionLeader: "Vanessa Lu – Ontario Science Centre",
+    presenters: [],
+    track: "Operations and Development",
+    description: null,
+  },
+  {
+    id: 84,
+    time: "11:15 AM – 12:15 PM US CDT",
+    title:
+      "Community-Centered Collections Digitization and Access: Digitally Uniting Maya Weaving Collections from Chiapas, Mexico",
+    type: null,
+    location: "S102A",
+    sessionLeader:
+      "Edward Fleming, PhD (he/him/his) – Science Museum of Minnesota",
+    presenters: [
+      "Charlie Iverson – Science Museum of Minnesota",
+      "Carlos Barrera, Sr., Professor – Museo Na Bolom",
+      "Jennings Mergenthal – Science Museum of Minnesota",
+      "Lori Benson (she/her/hers) – Chiapas Maya Project",
+    ],
+    track: "Audience, Diversity, and Inclusion",
+    description: null,
+  },
+  {
+    id: 85,
+    time: "11:15 AM – 12:15 PM US CDT",
+    title:
+      "Engaging Local Communities in Climate Action and Solutions Through Exhibits: Perspectives from the Field",
+    type: "Panel",
+    location: "S105BC",
+    sessionLeader: "Peter Lam – Reich & Petch International",
+    presenters: [
+      "Cindy Busche – The WaterShed",
+      "Lisa Thompson – Natural History Museum of Utah",
+      "Jen Kretser – The Wild Center",
+      "Nina Nesseth – Science North",
+    ],
+    track: "Facility and Exhibit Design",
+    description: null,
+  },
+  {
+    id: 86,
+    time: "11:15 AM – 12:15 PM US CDT",
+    title:
+      "Landscaping Federal Support for Science Engagement: Findings From a Year-Long Study",
+    type: "Panel",
+    location: "S102D",
+    sessionLeader: "Eve Klein – Association of Science and Technology Centers",
+    presenters: [
+      "Rose Hendricks, PhD – Association of Science and Technology Centers",
+    ],
+    track: "Community and Partnerships",
+    description: null,
+  },
+  {
+    id: 87,
+    time: "11:15 AM – 12:15 PM US CDT",
+    title:
+      "Light and Shadow: Bright Ideas for Taking on Tinkering in Your Context",
+    type: "Experiential",
+    location: "S103D",
+    sessionLeader: "Michael Wong – Exploratorium",
+    presenters: [
+      "Steph Muscat – Exploratorium",
+      "Brendan Takenaga – Boston Children's Museum",
+      "Dianne DeStefano – Boston Children's Museum",
+      "Alex Greenwald – Thinkery",
+      "Becca Drew Ramsey – Thinkery",
+    ],
+    track: "Education and Events",
+    description: null,
+  },
+  {
+    id: 88,
+    time: "11:15 AM – 12:15 PM US CDT",
+    title: "Lightning Session: Digital and Media Engagement",
+    type: "Lightning Session",
+    location: "S106B",
+    sessionLeader: null,
+    presenters: [
+      "Julie Noyes – Twin Cities PBS",
+      "Katie Hessen, MS – Twin Cities PBS",
+      "Kelly Mueller – Itasca Community Library",
+      "Lauren M. Shea, PhD – American University",
+      "Niki Beverly – Twin Cities PBS",
+      "Roberto Baldizon – Mohammed Bin Salman Misk Foundation",
+      "Teon Edwards – TERC",
+    ],
+    track: "Lightning Session",
+    description: null,
+  },
+  {
+    id: 89,
+    time: "11:15 AM – 12:15 PM US CDT",
+    title:
+      "No Easy Answers: Facilitating Critical Conversations in and About Museums",
+    type: "Group Discussion",
+    location: "S105A",
+    sessionLeader: "Lauren Brown – Field Museum",
+    presenters: [
+      "Jenine Wehbeh – Field Museum",
+      "Kate Hodge – Institute for the Study of Ancient Cultures",
+      "Susan A. Golland – Field Museum",
+    ],
+    track: "Education and Events",
+    description: null,
+  },
+  {
+    id: 90,
+    time: "11:15 AM – 12:15 PM US CDT",
+    title: "Preparing for the Future with ASTC's Global Trends Framework",
+    type: "Group Discussion",
+    location: "S106A",
+    sessionLeader:
+      "Naomi Wallace, PhD – Association of Science and Technology Centers",
+    presenters: [],
+    track: "Trends and Innovation",
+    description: null,
+  },
+  {
+    id: 91,
+    time: "11:15 AM – 12:15 PM US CDT",
+    title:
+      "Science as Ceremony: Indigenous-Led Partnerships Between Indigenous Nations, Urban Indigenous Youth, and Natural History Museums",
+    type: "Group Discussion",
+    location: "S103A",
+    sessionLeader:
+      "Lila M. Higgins – Natural History Museums of Los Angeles County",
+    presenters: [
+      "Gabrielle Crowe – Gabrielino-Shoshone Indigenous Nation",
+      "Malinalli M Diaz – Anawakalmekak Indigenous School",
+      "Axayacatzi Kuauhtzin – Anawakalmekak Indigenous School",
+      "Sam Tayag – Natural History Museums of Los Angeles County",
+    ],
+    track: "Community and Partnerships",
+    description: null,
+  },
+  {
+    id: 92,
+    time: "11:15 AM – 12:15 PM US CDT",
+    title:
+      "Slam Dunk for Science and Literacy: A Natural History Museum and Urban School Partnership",
+    type: "Experiential",
+    location: "S103BC",
+    sessionLeader: "Renata L. Brown, MA – Cleveland Museum of Natural History",
+    presenters: ["Eugenia Johnson-Whitt, PhD – Walsh University"],
+    track: "Community and Partnerships",
+    description: null,
+  },
+  {
+    id: 93,
+    time: "12:15 PM – 2:00 PM US CDT",
+    title: "Lunch on own",
+    type: null,
+    location: "Offsite",
+    sessionLeader: null,
+    presenters: [],
+    track: null,
+    description: null,
+  },
+  {
+    id: 94,
+    time: "12:45 PM – 1:45 PM US CDT",
+    title: "Community Science Practitioner Meet-Up",
+    type: null,
+    location: "State Room",
+    sessionLeader: null,
+    presenters: [],
+    track: null,
+    description: null,
+  },
+  {
+    id: 95,
+    time: "2:00 PM – 3:00 PM US CDT",
+    title: "AI Playground: Using Play to Demystify AI",
+    type: "Experiential",
+    location: "S105D",
+    sessionLeader: "Kayley Evans, MA – TELUS Spark",
+    presenters: [
+      "Dione Chambers – Okanagan Science centre",
+      "Kenny Vo – Kennevo",
+      "Max Fortin – Science North",
+    ],
+    track: "Trends and Innovation",
+    description: null,
+  },
+  {
+    id: 96,
+    time: "2:00 PM – 3:00 PM US CDT",
+    title:
+      "Bringing Research to Light: How Collections Can Tell the Stories of Our Scientists",
+    type: "Panel",
+    location: "S105A",
+    sessionLeader: "Donna DiBartolomeo, EdM – Exhibits, Education, Projects",
+    presenters: [
+      "Jaap Hoogstraten, MA – Field Museum",
+      "Lauri Halderman – American Museum of Natural History",
+      "Tim Lee – Natural History Museum of Utah",
+      "Aaron Smith",
+    ],
+    track: "Facility and Exhibit Design",
+    description: null,
+  },
+  {
+    id: 97,
+    time: "2:00 PM – 3:00 PM US CDT",
+    title:
+      "Embracing Uncertainty: Navigating the Ever-Changing Landscape in Science Centers & Museums",
+    type: "Group Discussion",
+    location: "S105BC",
+    sessionLeader:
+      "Amanda Fisher – Association of Science and Technology Centers",
+    presenters: [
+      "Rena Dorph, Ph.D. – The Lawrence Hall of Science",
+      "Preeti Gupta – American Museum of Natural History",
+    ],
+    track: "Leadership and Direction",
+    description: null,
+  },
+  {
+    id: 98,
+    time: "2:00 PM – 3:00 PM US CDT",
+    title: "Establishing Support for YOUR Youth-Led Programming",
+    type: "Group Discussion",
+    location: "S102D",
+    sessionLeader: "Danny Clase – New York Hall of Science",
+    presenters: [
+      "Truck Mcdonald – New York Hall of Science",
+      "Chidi Asoluka – New Comm",
+      "Aleks Liou – California Academy of Sciences",
+      "Satbir Multani – New York Hall of Science",
+    ],
+    track: "Audience, Diversity, and Inclusion",
+    description: null,
+  },
+  {
+    id: 99,
+    time: "2:00 PM – 3:00 PM US CDT",
+    title:
+      "Igniting Interest: The Need for Engaging Museum Audiences on Wildfire Awareness and Prevention",
+    type: "Group Discussion",
+    location: "S102A",
+    sessionLeader: "Timothy N. Hecox – World Forestry Center",
+    presenters: [
+      "Victoria Coats – Oregon Museum of Science and Industry",
+      "Adriana E. S. Ford – Imperial College London",
+      "Christopher White – The Discovery",
+    ],
+    track: "Education and Events",
+    description: null,
+  },
+  {
+    id: 100,
+    time: "2:00 PM – 3:00 PM US CDT",
+    title: "Lightning Session: Games and Play",
+    type: "Lightning Session",
+    location: "S106B",
+    sessionLeader: null,
+    presenters: [
+      "Anastasia Thanukos, PhD – University of California Museum of Paleontology",
+      "Emma J. Grahn – Smithsonian Institution's Lemelson Center for the Study of Invention and Innovation",
+      "Joanna K. Garner, PhD – The Center for Educational Partnerships at Old Dominion University",
+      "Kathryn A. Derloshon – Smithsonian National Museum of Natural History",
+    ],
+    track: "Lightning Session",
+    description: null,
+  },
+  {
+    id: 101,
+    time: "2:00 PM – 3:00 PM US CDT",
+    title: "New Immersive Programming in Giant Screen and Planetarium Theaters",
+    type: "Panel",
+    location: "S103A",
+    sessionLeader: "Tammy Barrett – Giant Screen Cinema Association",
+    presenters: [
+      "Mike Smail – Adler Planetarium",
+      "Paulette Epstein – Michigan Science Center",
+      "Sari Custer – Arizona Science Center",
+      "Alan Hanstein – Challenger Learning Center",
+      "Mike Lutz",
+    ],
+    track: "Trends and Innovation",
+    description: null,
+  },
+  {
+    id: 102,
+    time: "2:00 PM – 3:00 PM US CDT",
+    title:
+      "Pedagogical Parkour: Exploring the Evolving Landscape of Professional Learning",
+    type: "Solution Lab",
+    location: "S103D",
+    sessionLeader: "Sherry Burch – The Tech Interactive",
+    presenters: [
+      "Claire D'Emic – Long Island Children's Museum",
+      "Alexandra L. Pearson, MFA – Knock Knock Children's Museum",
+      "Mindy R. Porter – Scott Family Amazeum",
+      "Christina Woods – Field Museum",
+      "Michael E. Kmietowicz, Jr. – Orlando Science Center",
+    ],
+    track: "Education and Events",
+    description: null,
+  },
+  {
+    id: 103,
+    time: "2:00 PM – 3:00 PM US CDT",
+    title:
+      "Strategize, Decolonize, Indigenize: Building Trust Among Community Partners and Colleagues Through Culturally Inclusive Communication",
+    type: "Panel",
+    location: "S103BC",
+    sessionLeader: "Amanda Kopp (she/her/hers) – Milwaukee Public Museum",
+    presenters: [
+      "James Flores (he/him/his) – Milwaukee Public Museum",
+      "Adriana Vázquez (she/her/hers) – Milwaukee Public Museum",
+    ],
+    track: "Audience, Diversity, and Inclusion",
+    description: null,
+  },
+  {
+    id: 104,
+    time: "2:00 PM – 3:00 PM US CDT",
+    title:
+      "Supporting Belongingness for Neurodivergent Learners in Hands-On STEM Spaces",
+    type: "Group Discussion",
+    location: "S102BC",
+    sessionLeader: "Susan Letourneau, PhD – New York Hall of Science",
+    presenters: [
+      "Sam Tumolo – New York Hall of Science",
+      "Meagan Henry, PhD – Education Development Center",
+      "Tara Henderson, MA – Explora",
+      "Erin Whyte – Children's Museum of Pittsburgh",
+    ],
+    track: "Audience, Diversity, and Inclusion",
+    description: null,
+  },
+  {
+    id: 105,
+    time: "2:00 PM – 3:00 PM US CDT",
+    title:
+      "Who's in Charge?: Involving Community Leaders in Decision Making; Respecting the Owners of Artifacts",
+    type: "Group Discussion",
+    location: "S106A",
+    sessionLeader: "Lauren Patrick, M.Ed. – Saint Louis Science Center",
+    presenters: [
+      "Jennings Mergenthal – Science Museum of Minnesota",
+      "Jill Coons – GrowingGreat",
+    ],
+    track: "Community and Partnerships",
+    description: null,
+  },
+  {
+    id: 106,
+    time: "3:15 PM – 4:15 PM US CDT",
+    title:
+      "Animal Welfare Strategies in Live Animal Exhibit Design and Evaluation",
+    type: "Group Discussion",
+    location: "S103BC",
+    sessionLeader:
+      "Samantha J. Couch – WonderLab Museum of Science, Health, & Technology",
+    presenters: [],
+    track: "Facility and Exhibit Design",
+    description: null,
+  },
+  {
+    id: 107,
+    time: "3:15 PM – 4:15 PM US CDT",
+    title:
+      "Building Teen-Led Climate Communities: Insights From Critical Action Lab Partners",
+    type: "Panel",
+    location: "S105A",
+    sessionLeader: "Madlyn Larson, M.Ed. – Natural History Museum of Utah",
+    presenters: [
+      "Ben Templeton – Thought Den",
+      "Jennifer Torrance – Phipps Conservatory and Botanical Gardens",
+      "Jen Kretser – The Wild Center",
+      "Brittany Gutermuth – Mass Audubon",
+    ],
+    track: "Community and Partnerships",
+    description: null,
+  },
+  {
+    id: 108,
+    time: "3:15 PM – 4:15 PM US CDT",
+    title: "Business Operations for All",
+    type: null,
+    location: "S105D",
+    sessionLeader: null,
+    presenters: [
+      "Lindsey Jennings – Discovery Center at Murfee Spring",
+      "Shaleen Godfrey – Phillip and Patricia Frost Museum of Science",
+      "Tony Millet – Natural History Museum of Utah",
+      "Adam Frost – Lawrence Hall of Science, UC Berkeley",
+    ],
+    track: "Operations and Development",
+    description: null,
+  },
+  {
+    id: 109,
+    time: "3:15 PM – 4:15 PM US CDT",
+    title: "Iterative Design: Stuck, Stalled, or Successful?",
+    type: "Panel",
+    location: "S103D",
+    sessionLeader: "Katherine Ziff – New York Hall of Science",
+    presenters: [
+      "Dana Schloss – New York Hall of Science",
+      "Adam Tobin – Chabot Space & Science Center",
+      "Chip Lindsey, M.Ed – Discovery Lab",
+      "Janella Watson – Watson Creative Consulting",
+    ],
+    track: "Organizational Culture and Workforce",
+    description: null,
+  },
+  {
+    id: 110,
+    time: "3:15 PM – 4:15 PM US CDT",
+    title: "Leadership as a Mindset: From Volunteers to Executives",
+    type: null,
+    location: "S101AB",
+    sessionLeader: null,
+    presenters: [],
+    track: "Organizational Culture and Workforce",
+    description: null,
+  },
+  {
+    id: 111,
+    time: "3:15 PM – 4:15 PM US CDT",
+    title: "Lightning Session: Teachers and Schools",
+    type: "Lightning Session",
+    location: "S106B",
+    sessionLeader: null,
+    presenters: [
+      "Christina Woods – Field Museum",
+      "Jennings Mergenthal – Science Museum of Minnesota",
+      "Kaitlyn DelDuca – The Academy of Natural Sciences of Drexel University",
+      "Lenette Rodriguez – Explora",
+      "Misty J. Richmond, NBCT – Chicago Public Schools",
+      "Rex Babiera, MEd, MBA – Griffin Museum of Science and Industry",
+      "Stepheny Hine – Museum of Life and Science",
+      "Tomara Gee – Museum of Life and Science",
+    ],
+    track: "Lightning Session",
+    description: null,
+  },
+  {
+    id: 112,
+    time: "3:15 PM – 4:15 PM US CDT",
+    title:
+      "Small but Mighty: Celebrating the Strengths and Navigating the Challenges of Small Museums",
+    type: null,
+    location: "S106A",
+    sessionLeader: null,
+    presenters: [
+      "Michele Crowl – Discovery Space of Central Pennsylvania",
+      "Dale McCreedy, PhD – Hands On! Discovery Center",
+    ],
+    track: "Leadership and Direction",
     description: null,
   },
 ];

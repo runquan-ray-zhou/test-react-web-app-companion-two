@@ -1,44 +1,24 @@
-import { useState } from 'react'
-import { useNavigate } from "react-router-dom"
-import arLogo from "../../assets/arLogo.svg"
-import heroImage from "../../assets/heroImage.svg"
-import "./Show.css"
-import SessionDetails from '../../Components/SessionDetails/SessionDetails'
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import arLogo from "../../assets/arLogo.svg";
+import SessionDetails from "../../Components/SessionDetails/SessionDetails";
+import NavBar from "../../Components/NavBar/NavBar";
+import "./Show.css";
 
 export default function Show() {
+  const navigate = useNavigate();
 
-  const [showMenu, setShowMenu] = useState(false)
-
-  const navigate = useNavigate()
-
-  const handleMenu = () => {
-      setShowMenu(!showMenu)
-  }
-  
   return (
     <div className="Show">
       <div className="Show-container">
-        <div className={`off-screen-menu ${showMenu ? "active" : ""}`}>
-          <ul>
-            <li onClick={() => navigate("/home")}>Home</li>
-            <li onClick={() => navigate("/sessions")}>Full Session List</li>
-            <li onClick={() => navigate("/scanner")}>Information Scan</li>
-            <li>Event Map</li>
-          </ul>
+        <div
+          className="Show-container-back"
+          onClick={() => navigate("/sessions")}
+        >
+          <i className="fa-solid fa-chevron-left"></i>
+          <span>Back</span>
         </div>
-            <nav>
-                <div className="Show-logo">
-                    <img src={heroImage} alt="show-heroImage" />
-                    <div className="Show-h1">
-                      <i onClick={() => navigate("/sessions")} className="fa-solid fa-chevron-left"></i><h1>Session Details</h1>
-                    </div>
-                </div>
-                <div className={`Show-hamburger ${showMenu ? "active": ""}`} onClick={handleMenu}>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </nav>
+        <NavBar />
         <div className="Show-container-details">
           <SessionDetails />
         </div>
@@ -47,7 +27,7 @@ export default function Show() {
             <img src={arLogo} alt="scanner-arLogo" />
           </button>
         </div>
-      </div> 
+      </div>
     </div>
-  )
+  );
 }
