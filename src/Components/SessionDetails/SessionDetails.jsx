@@ -4,6 +4,7 @@ import {
   september27thPresentations,
   september28thPresentations,
   september29thPresentations,
+  september30thPresentations,
 } from "../../assets/data";
 import "./SessionDetails.css";
 
@@ -17,6 +18,7 @@ export default function SessionDetails() {
       ...september27thPresentations,
       ...september28thPresentations,
       ...september29thPresentations,
+      ...september30thPresentations,
     ];
     setSession(allSessions[id - 1]);
   }, [id]);

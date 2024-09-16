@@ -6,6 +6,7 @@ import {
   september28thPresentations,
   september27thPresentations,
   september29thPresentations,
+  september30thPresentations,
 } from "../../assets/data";
 import Sessions from "../../Components/Sessions/Sessions";
 import "./Index.css";
@@ -53,6 +54,8 @@ export default function Index() {
       newSessions = september28thPresentations;
     } else if (date === "Sun, 09/29") {
       newSessions = september29thPresentations;
+    } else if (date === "Mon, 09/30") {
+      newSessions = september30thPresentations;
     }
     setTodaySessions(newSessions);
     setFilteredSessions(newSessions);
@@ -113,8 +116,17 @@ export default function Index() {
             >
               Sun, 09/29
             </button>
-            <button className="Index-sessions-date">Mon, 09/30</button>
-            <button className="Index-sessions-date">Tue, 10/01</button>
+            <button
+              style={
+                todaySessions === september30thPresentations
+                  ? { backgroundColor: "#002f88", color: "#ffffff" }
+                  : { backgroundColor: "#ffffff", color: "#000000" }
+              }
+              className="Index-sessions-date"
+              onClick={() => handleDateChange("Mon, 09/30")}
+            >
+              Mon, 09/30
+            </button>
           </div>
           <div className="Index-sessions">
             <Sessions todaySessions={filteredSessions} />
