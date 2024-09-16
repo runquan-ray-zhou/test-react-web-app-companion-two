@@ -19,11 +19,6 @@ export default function Scanner() {
             to view location information!
           </p>
         </div>
-        {/* <div className="Scanner-button">
-          <button onClick={() => navigate("/scanner")}>
-            <img src={arLogo} alt="scanner-arLogo" />
-          </button>
-        </div> */}
       </div>
     </div>
   );

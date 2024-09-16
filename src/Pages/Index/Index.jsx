@@ -46,15 +46,17 @@ export default function Index() {
   }
 
   function handleDateChange(date) {
+    let newSessions;
     if (date === "Fri, 09/27") {
-      setTodaySessions(september27thPresentations);
+      newSessions = september27thPresentations;
     } else if (date === "Sat, 09/28") {
-      setTodaySessions(september28thPresentations);
+      newSessions = september28thPresentations;
     } else if (date === "Sun, 09/29") {
-      setTodaySessions(september29thPresentations);
+      newSessions = september29thPresentations;
     }
+    setTodaySessions(newSessions);
+    setFilteredSessions(newSessions);
     setSearchQuery("");
-    setFilteredSessions([]);
   }
   return (
     <div className="Index">
@@ -119,8 +121,12 @@ export default function Index() {
           </div>
         </div>
         <div className="Index-scanner-button">
-          <button onClick={() => navigate("/scanner")}>
-            <img src={arLogo} alt="scanner-arLogo" />
+          <button>
+            <img
+              onClick={() => navigate("/scanner")}
+              src={arLogo}
+              alt="scanner-arLogo"
+            />
           </button>
         </div>
       </div>

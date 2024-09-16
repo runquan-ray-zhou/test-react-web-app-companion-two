@@ -41,9 +41,10 @@
     height: auto;
     display: flex;
     overflow-x: auto;
+    border-left: 1px solid black;
+    margin-top: 15px;
     button {
       text-wrap: nowrap;
-      margin-top: 15px;
       border-top: 1px solid black;
       border-bottom: none;
       border-left: 1px solid black;
@@ -60,6 +61,7 @@
     width: 100%;
     height: calc(100vh - 150px);
     overflow-y: auto;
+    border-top: 10px solid #002f88;
   }
   .Index-scanner-button {
     z-index: 10;

@@ -32,8 +32,12 @@ export default function Home() {
             <Carousel />
           </div>
           <div className="Home-scanner-button">
-            <button onClick={() => navigate("/scanner")}>
-              <img src={arLogo} alt="scanner-arLogo" />
+            <button>
+              <img
+                onClick={() => navigate("/scanner")}
+                src={arLogo}
+                alt="scanner-arLogo"
+              />
             </button>
           </div>
         </div>
