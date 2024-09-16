@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import navHero from "../../assets/navHero.svg";
 import "./NavBar.css";
 
@@ -23,9 +23,11 @@ export default function NavBar() {
         </ul>
       </div>
       <nav>
-        <div className="NavBar-logo">
-          <img src={navHero} alt="home-navHero" />
-        </div>
+        <Link to="/home">
+          <div className="NavBar-logo">
+            <img src={navHero} alt="home-navHero" />
+          </div>
+        </Link>
         <div
           className={`NavBar-hamburger ${showMenu ? "active" : ""}`}
           onClick={handleMenu}

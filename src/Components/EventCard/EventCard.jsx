@@ -1,28 +1,38 @@
-import "./EventCard.css"
+import { Link } from "react-router-dom";
+import "./EventCard.css";
 
-export default function EventCard({event} ) {
+export default function EventCard({ event }) {
   return (
-        <div className="EventCard">
-            <div className="EventCard-time">
-                <p>{event.time}</p>
-            </div>
-            <div className="EventCard-info">
-                <div className="Event-name">
-                    <p>{event.name}:</p>
-                </div>
-                <div className="EventCard-description">
-                    <p>{event.description}</p>
-                </div>
-                <div className="EventCard-presenter">
-                    <p>Presenter:</p><p>{event.presenter}</p>
-                </div>
-                <div className="EventCard-location">
-                    <p>Location:</p><p>{event.location}</p>
-                </div>
-                <div className="EventCard-button">
-                    <button>Leadership and Direction</button>
-                </div>
-            </div>
+    <Link to={`/sessions/${event.id}`} className="EventCard-link">
+      <div className="EventCard">
+        <div className="EventCard-time">
+          <p>{event.time}</p>
         </div>
-  )
+        <div className="EventCard-info">
+          <div className="Event-name">
+            <p>{event.title}:</p>
+          </div>
+          <div className="EventCard-presenter">
+            <p>Presenter:</p>
+            <p>
+              {event.presenters &&
+              Array.isArray(event.presenters) &&
+              event.presenters.length > 0
+                ? event.presenters[0].split("–")[0]
+                : event.sessionLeader
+                ? event.sessionLeader.split("–")[0]
+                : "N/A"}
+            </p>
+          </div>
+          <div className="EventCard-location">
+            <p>Location:</p>
+            <p>{event.location}</p>
+          </div>
+        </div>
+        <div className="EventCard-button">
+          <button>{event.type ? event.type : event.track}</button>
+        </div>
+      </div>
+    </Link>
+  );
 }
