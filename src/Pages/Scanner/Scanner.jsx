@@ -15,7 +15,7 @@ export default function Scanner() {
         </div>
         <div className="Scanner-message">
           <p>
-            Point your camera at a QR code, then click the 3D image that appears
+            Point your camera at a Marker, then click the 3D image that appears
             to view location information!
           </p>
         </div>
