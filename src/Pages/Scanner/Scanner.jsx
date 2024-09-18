@@ -15,8 +15,8 @@ export default function Scanner() {
         </div>
         <div className="Scanner-message">
           <p>
-            Point your camera at a Marker, then click the 3D image that appears
-            to view location information!
+            Point your camera at a Marker, then tap the 3D image that appears to
+            view location information!
           </p>
         </div>
       </div>

@@ -92,8 +92,8 @@ export default function Portal() {
             </div>
             <div className="thirdOnboarding-page-text">
               <p>
-                Click on the log to scan a QR code or event sign and instantly
-                learn more about speaker sessions.
+                Tap on the logo to scan a Marker and instantly learn more about
+                speaker sessions.
               </p>
             </div>
             <div className="onboarding-page-buttons">
@@ -131,9 +131,7 @@ export default function Portal() {
               </Link>
             </div>
             <div className="fourthOnboarding-page-text">
-              <p>
-                Click the Logo above to start scanning or enter the AeroGuide
-              </p>
+              <p>Tap the Logo above to start scanning or enter the AeroGuide</p>
             </div>
             <div className="onboarding-page-buttons">
               <button onClick={() => navigate("/home")}>Get Started</button>
