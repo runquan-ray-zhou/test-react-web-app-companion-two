@@ -1,9 +1,11 @@
-import "./Error.css"
+import NavBar from "../../Components/NavBar/NavBar";
+import "./Error.css";
 
 export default function Error() {
   return (
-    <div>
-      <h1>This is the Error Page</h1>
+    <div className="Error">
+      <NavBar />
+      <h1>You Found the 404 Error Page</h1>
     </div>
-  )
+  );
 }
