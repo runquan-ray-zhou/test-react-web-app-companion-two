@@ -1,50 +1,3 @@
-export const events = [
-  {
-    id: 1,
-    name: "Building Bridges to the Future",
-    description:
-      "Grow Your Leadership Effectiveness Through Expert and Peer Conversations",
-    time: "9:00 AM - 1:00 PM US CDT",
-    location: "S102D",
-    presenter: "Heather M.Norton",
-  },
-  {
-    id: 2,
-    name: "Building Bridges to the Future",
-    description:
-      "Grow Your Leadership Effectiveness Through Expert and Peer Conversations",
-    time: "9:00 AM - 1:00 PM US CDT",
-    location: "S102D",
-    presenter: "Heather M.Norton",
-  },
-  {
-    id: 3,
-    name: "Building Bridges to the Future",
-    description:
-      "Grow Your Leadership Effectiveness Through Expert and Peer Conversations",
-    time: "9:00 AM - 1:00 PM US CDT",
-    location: "S102D",
-    presenter: "Heather M.Norton",
-  },
-  {
-    id: 4,
-    name: "Building Bridges to the Future",
-    description:
-      "Grow Your Leadership Effectiveness Through Expert and Peer Conversations",
-    time: "9:00 AM - 1:00 PM US CDT",
-    location: "S102D",
-    presenter: "Heather M.Norton",
-  },
-  {
-    id: 5,
-    name: "Building Bridges to the Future",
-    description:
-      "Grow Your Leadership Effectiveness Through Expert and Peer Conversations",
-    time: "9:00 AM - 1:00 PM US CDT",
-    location: "S102D",
-    presenter: "Heather M.Norton",
-  },
-];
 export const september27thPresentations = [
   {
     id: 1,
@@ -579,8 +532,8 @@ export const september28thPresentations = [
       "Airborne Interactive: Elevating the Museum Experience with Spatial Computing",
     type: "Hands-On Showcase",
     location: "Exhibit Hall Stage",
-    sessionLeader: "Branden Apitz – AYR Immersive",
-    presenter: "Damon Dorsey",
+    sessionLeader: null,
+    presenters: ["Shiri Burson – AYR Immersive"],
     track: "Facility and Exhibit Design",
     description:
       "Airborne interactive elevating the museum experience with spatial computing.",
@@ -592,7 +545,7 @@ export const september28thPresentations = [
     type: "Hands-On Showcase",
     location: "Exhibit Hall Stage",
     sessionLeader: "Wendy Martin, PhD – Education Development Center",
-    presenter: "Genevieve Ward-Wernet – New York Hall of Science",
+    presenters: ["Genevieve Ward-Wernet – New York Hall of Science"],
     track: "Audience, Diversity, and Inclusion",
     description:
       "This session will provide participants with NASA astronomy activities created in collaboration with neurodivergent youth and the educators who work with them. Session presenters will showcase activities on telescopes, solar science, data collection and rocketry. Presenters will also share strategies on co-designing activities for neurodivergent youth.",

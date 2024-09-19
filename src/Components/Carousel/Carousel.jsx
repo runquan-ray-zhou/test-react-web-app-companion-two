@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import "./Carousel.css";
 import {
   september28thPresentations,
-  september27thPresentations,
   september29thPresentations,
   september30thPresentations,
 } from "../../assets/data";
@@ -13,28 +12,28 @@ export default function Carousel() {
 
   const getRandomEvents = () => {
     const allPresentations = [
-      september27thPresentations,
       september28thPresentations,
       september29thPresentations,
       september30thPresentations,
     ];
 
-    // Select a random array of presentations
     const randomPresentationArray =
       allPresentations[Math.floor(Math.random() * allPresentations.length)];
 
-    // Shuffle the selected array
     const shuffled = [...randomPresentationArray].sort(
       () => 0.5 - Math.random()
     );
 
-    // Get the first 5 items (or fewer if the array is smaller)
     return shuffled.slice(0, 5);
   };
 
-  // Use it in your useEffect
+  const getSixEvents = () => {
+    const allPresentations = [...september28thPresentations.slice(0, 5)];
+    return allPresentations;
+  };
+
   useEffect(() => {
-    setEvents(getRandomEvents());
+    setEvents(getSixEvents());
   }, []);
 
   return (

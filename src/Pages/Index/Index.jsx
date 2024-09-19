@@ -4,7 +4,6 @@ import arLogo from "../../assets/arLogo.svg";
 import NavBar from "../../Components/NavBar/NavBar";
 import {
   september28thPresentations,
-  september27thPresentations,
   september29thPresentations,
   september30thPresentations,
 } from "../../assets/data";
@@ -19,7 +18,7 @@ export default function Index() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    setTodaySessions(september27thPresentations);
+    setTodaySessions(september28thPresentations);
   }, []);
 
   useEffect(() => {
@@ -48,9 +47,7 @@ export default function Index() {
 
   function handleDateChange(date) {
     let newSessions;
-    if (date === "Fri, 09/27") {
-      newSessions = september27thPresentations;
-    } else if (date === "Sat, 09/28") {
+    if (date === "Sat, 09/28") {
       newSessions = september28thPresentations;
     } else if (date === "Sun, 09/29") {
       newSessions = september29thPresentations;
@@ -83,17 +80,6 @@ export default function Index() {
         </div>
         <div className="Index-content">
           <div className="Index-sessions-dates">
-            <button
-              style={
-                todaySessions === september27thPresentations
-                  ? { backgroundColor: "#002f88", color: "#ffffff" }
-                  : { backgroundColor: "#ffffff", color: "#000000" }
-              }
-              className="Index-sessions-date"
-              onClick={() => handleDateChange("Fri, 09/27")}
-            >
-              Fri, 09/27
-            </button>
             <button
               style={
                 todaySessions === september28thPresentations

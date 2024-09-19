@@ -24,7 +24,7 @@
   }
   .Scanner-iframe {
     width: 100%;
-    height: calc(100% - 60px); /* Adjust based on your NavBar height */
+    height: calc(100% - 60px);
   }
   .Scanner-iframe iframe {
     width: 100%;
