@@ -16,11 +16,11 @@ export default function Portal() {
       <div className="onboarding-container">
         {onboardingPage === "firstOnboardigPage" && (
           <div className="onboarding-page">
-            <div class="circles-container">
-              <div class="circle outer-circle"></div>
-              <div class="circle middle-circle"></div>
-              <div class="circle inner-circle"></div>
-              <div class="circle-content">
+            <div className="circles-container">
+              <div className="circle outer-circle"></div>
+              <div className="circle middle-circle"></div>
+              <div className="circle inner-circle"></div>
+              <div className="circle-content">
                 <div className="onboarding-page-logo">
                   <img src={logo} alt="onboarding-logo" />
                 </div>
