@@ -1,6 +1,6 @@
 .Scanner,
 .Scanner-container {
-  position: fixed;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,8 +15,8 @@
   left: 0;
 
   iframe {
-    position: absolute;
-    top: 8%;
+    position: relative;
+    top: 4%;
     left: 0;
     right: 0;
     width: 100%;
