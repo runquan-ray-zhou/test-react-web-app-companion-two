@@ -16,7 +16,7 @@ export default function NavBar() {
     <div className="NavBar">
       <div className={`off-screen-menu ${showMenu ? "active" : ""}`}>
         <ul>
-          <li onClick={() => navigate("/")}>Home</li>
+          <li onClick={() => navigate("/home")}>Home</li>
           <li onClick={() => navigate("/sessions")}>Full Session List</li>
           <li onClick={() => navigate("/scanner")}>Information Scan</li>
           <li>Event Map</li>
