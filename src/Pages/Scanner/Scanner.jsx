@@ -69,7 +69,7 @@ function ARS({ setMarkerFound }) {
 				params={{ smooth: true }}
 				type={'pattern'}
 				preset='custom'
-				patternUrl={'data/marker0.patt'}
+				patternUrl={'data/marker5.patt'}
 				onMarkerFound={() => {
 					console.log('Marker Found');
 					setMarkerFound(true);
