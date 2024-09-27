@@ -8,6 +8,7 @@
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 	z-index: 100;
 	text-align: left;
+	overflow: scroll;
 	.modal-container-info {
 		display: flex;
 		flex-direction: column;
@@ -49,9 +50,9 @@
 		display: flex;
 		flex-direction: row;
 		align-items: center;
-		width: 300px;
+		width: auto;
 		.Session-info {
-			width: 200px;
+			width: auto;
 		}
 
 		.Session-icon {
@@ -65,8 +66,8 @@
 			}
 			align-self: start;
 			font-size: 1.7em;
-			margin-right: 20px;
-			margin-top: 20px;
+			margin-right: 10pt;
+			margin-top: 20pt;
 		}
 		.Session-arrow {
 			font-size: 1.7em;
@@ -79,8 +80,8 @@
 		.Session-info-location,
 		.Session-info-presenters,
 		.Session-info-presenter {
-			margin-top: 5px;
-			margin-bottom: 5px;
+			margin-top: 5pt;
+			margin-bottom: 5pt;
 		}
 	}
 }
