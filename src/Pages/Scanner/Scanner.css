@@ -1,52 +1,65 @@
 .Scanner,
 .Scanner-container {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  height: 100vh;
-  width: 100vw;
-  background-color: rgb(0, 46, 120);
-  color: white;
-  overflow: hidden;
-  top: 0;
-  left: 0;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 100vh;
+	width: 100vw;
+	color: white;
+	overflow: hidden;
+	margin: 0;
+}
 
-  iframe {
-    position: relative;
-    top: 4%;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-  }
-  .Scanner-iframe {
-    width: 100%;
-    height: calc(100% - 60px);
-  }
-  .Scanner-iframe iframe {
-    width: 100%;
-    height: 100%;
-    border: none;
-  }
+.Scanner-iframe {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
-  .Scanner-message {
-    width: 75%;
-    font-size: 1.1em;
-    font-weight: 600;
-    background-color: #d5e9f5;
-    color: black;
-    z-index: 2;
-    bottom: 40px;
-    position: absolute;
-    display: flex;
-    justify-content: space-around;
-    padding: 10px;
-    border-radius: 25px;
-    p {
-      margin: 0px;
-    }
-  }
+.Scanner-iframe a-scene {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.Scanner-iframe a-nft {
+	width: 100%;
+	height: 100%;
+}
+
+.overlay {
+	position: absolute;
+	top: 80pt;
+	left: 0;
+	right: 0;
+	bottom: 80pt;
+	padding: 20pt;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.Scanner-message {
+	width: 75%;
+	font-size: 1.1em;
+	font-weight: 600;
+	background-color: #d5e9f5;
+	color: black;
+	z-index: 2;
+	bottom: 40px;
+	position: fixed;
+	padding: 10px;
+	border-radius: 25px;
+	display: flex;
+}
+
+.Scanner-message p {
+	margin: 0px;
 }
