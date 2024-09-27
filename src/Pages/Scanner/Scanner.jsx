@@ -3,6 +3,7 @@ import NavBar from '../../Components/NavBar/NavBar';
 import './Scanner.css';
 import { memo, useEffect, useState } from 'react';
 import Overlay from '../../Components/overlay/overlay';
+import Modal from '../../Components/Modal/Modal';
 
 const data = [
 	{
@@ -38,8 +39,8 @@ export default function Scanner() {
 			<NavBar />
 			<Memars setMarkerFound={setMarkerFound} />
 			{overlayVisible && (
-				<div className='overlay show'>
-					<Overlay eventData={data} />
+				<div className='overlay'>
+					<Modal />
 				</div>
 			)}
 			{!overlayVisible && (
