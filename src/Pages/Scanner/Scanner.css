@@ -35,26 +35,27 @@
 }
 
 .overlay {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 20pt; /* Adds padding around the centered modal */
+  padding: 20pt;
+  display: flex;
   justify-content: center;
   align-items: center;
-  display: flex;
-  background-color: rgba(0, 0, 0, 0.5); /* Optional background for overlay */
+  background-color: rgba(0, 0, 0, 0.5); /* Optional background */
+  overflow: hidden; /* Prevents scrolling in overlay */
 }
 
 .modal-container {
-  max-width: calc(100% - 40pt); /* Ensures the modal fits within padding */
-  max-height: calc(100% - 40pt); /* Limits modal size dynamically */
+  max-width: calc(100% - 40pt);
+  max-height: calc(100% - 80pt);
   width: auto;
   height: auto;
   background-color: white;
   border-radius: 8px;
-  overflow: auto;
+  overflow: hidden; /* Prevents scrolling in modal container */
   box-sizing: border-box;
 }
 
