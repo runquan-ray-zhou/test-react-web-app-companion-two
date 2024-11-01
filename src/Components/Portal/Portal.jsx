@@ -2,19 +2,19 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import onboarding from "../../assets/onboarding.svg";
 import logo from "../../assets/logo.svg";
-import heroImage from "../../assets/heroImage.svg";
+import heroImage from "../../assets/Hero.png";
 import arLogo from "../../assets/arLogo.svg";
 import "./Portal.css";
 
 export default function Portal() {
   const navigate = useNavigate();
 
-  const [onboardingPage, setOnboardingPage] = useState("firstOnboardigPage");
+  const [onboardingPage, setOnboardingPage] = useState("firstOnboardingPage"); // Corrected typo
 
   return (
     <div className="Portal">
       <div className="onboarding-container">
-        {onboardingPage === "firstOnboardigPage" && (
+        {onboardingPage === "firstOnboardingPage" && (
           <div className="onboarding-page">
             <div className="circles-container">
               <div className="circle outer-circle"></div>
@@ -22,14 +22,15 @@ export default function Portal() {
               <div className="circle inner-circle"></div>
               <div className="circle-content">
                 <div className="onboarding-page-logo">
-                  <img src={logo} alt="onboarding-logo" />
+                  <img src={logo} alt="AeroGuide Logo" />
                 </div>
                 <h1>AeroGuide</h1>
                 <div className="onboarding-page-buttons">
                   <button
                     onClick={() => setOnboardingPage("secondOnboardingPage")}
+                    aria-label="Proceed to next onboarding page"
                   >
-                    Lets Fly!
+                    Let's Fly!
                   </button>
                 </div>
               </div>
@@ -45,7 +46,7 @@ export default function Portal() {
               <div className="onboarding-page-status-bar two">
                 <hr />
               </div>
-              <div className="onboarding-page-status-bar two">
+              <div className="onboarding-page-status-bar three">
                 <hr />
               </div>
             </div>
@@ -53,7 +54,7 @@ export default function Portal() {
               <h1>Welcome to AeroGuide for ASTC Chicago!</h1>
             </div>
             <div className="secondOnboarding-page-logo">
-              <img src={heroImage} alt="onboarding-heroImage" />
+              <img src={heroImage} alt="Hero for Onboarding" />
             </div>
             <div className="secondOnboarding-page-text">
               <p>Unlock a new way to experience the event with AR.</p>
@@ -62,10 +63,14 @@ export default function Portal() {
               <button
                 id="onboarding-page-buttons-skip1"
                 onClick={() => setOnboardingPage("fourthOnboardingPage")}
+                aria-label="Skip onboarding"
               >
                 Skip
               </button>
-              <button onClick={() => setOnboardingPage("thirdOnboardingPage")}>
+              <button
+                onClick={() => setOnboardingPage("thirdOnboardingPage")}
+                aria-label="Proceed to next onboarding page"
+              >
                 Next
               </button>
             </div>
@@ -80,15 +85,15 @@ export default function Portal() {
               <div className="onboarding-page-status-bar">
                 <hr />
               </div>
-              <div className="onboarding-page-status-bar two">
+              <div className="onboarding-page-status-bar three">
                 <hr />
               </div>
             </div>
             <div className="thirdOnboarding-page-heading">
-              <h1>Discover More with AR</h1>
+              <h1>Discover more with AR</h1>
             </div>
             <div className="thirdOnboarding-page-logo">
-              <img src={onboarding} alt="onboarding-logo2" />
+              <img src={onboarding} alt="Onboarding AR logo" />
             </div>
             <div className="thirdOnboarding-page-text">
               <p>
@@ -100,10 +105,14 @@ export default function Portal() {
               <button
                 id="onboarding-page-buttons-skip2"
                 onClick={() => setOnboardingPage("fourthOnboardingPage")}
+                aria-label="Skip onboarding"
               >
                 Skip
               </button>
-              <button onClick={() => setOnboardingPage("fourthOnboardingPage")}>
+              <button
+                onClick={() => setOnboardingPage("fourthOnboardingPage")}
+                aria-label="Proceed to final onboarding page"
+              >
                 Next
               </button>
             </div>
@@ -126,15 +135,20 @@ export default function Portal() {
               <h1>You're All Set</h1>
             </div>
             <div className="fourthOnboarding-page-logo">
-              <Link to="/scanner">
-                <img src={arLogo} alt="onboarding-arLogo" />
+              <Link to="/scanner" aria-label="Go to scanner">
+                <img src={arLogo} alt="AR Onboarding Logo" />
               </Link>
             </div>
             <div className="fourthOnboarding-page-text">
               <p>Tap the Logo above to start scanning or enter the AeroGuide</p>
             </div>
             <div className="onboarding-page-buttons">
-              <button onClick={() => navigate("/home")}>Get Started</button>
+              <button
+                onClick={() => navigate("/home")}
+                aria-label="Get started with AeroGuide"
+              >
+                Get Started
+              </button>
             </div>
           </div>
         )}

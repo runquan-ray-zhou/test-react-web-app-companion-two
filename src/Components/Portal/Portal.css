@@ -9,18 +9,22 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+
   .secondOnboarding-page-logo {
     width: 100%;
     background-color: #002f88;
   }
+
   img {
     width: 50%;
     height: auto;
+    max-width: 300px;
   }
 
   .thirdOnboarding-page-heading {
     margin-bottom: -30px;
   }
+
   .thirdOnboarding-page-logo {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -31,15 +35,17 @@
     position: absolute;
     display: flex;
     gap: 8px;
+
     .onboarding-page-status-bar {
       hr {
         width: 100px;
         border: 1px solid #3f79ba;
       }
-    }
-    .two {
-      hr {
-        border: 1px solid white;
+
+      &.two {
+        hr {
+          border: 1px solid white;
+        }
       }
     }
   }
@@ -71,6 +77,7 @@
     display: flex;
     justify-content: space-around;
     gap: 80px;
+
     button {
       font-size: 1.6em;
       font-weight: 100;
@@ -82,6 +89,7 @@
     }
   }
 }
+
 #onboarding-page-buttons-skip1,
 #onboarding-page-buttons-skip2 {
   background-color: white;
@@ -105,21 +113,21 @@
   position: absolute;
   border-radius: 50%;
   opacity: 1;
-}
 
-.outer-circle {
-  background: #002f88;
-  animation: expand-fade 3s ease-out forwards;
-}
+  &.outer-circle {
+    background: #002f88;
+    animation: expand-fade 3s ease-out forwards;
+  }
 
-.middle-circle {
-  background: #d5e9f5;
-  animation: expand-fade 3s ease-out 0.5s forwards;
-}
+  &.middle-circle {
+    background: #d5e9f5;
+    animation: expand-fade 3s ease-out 0.5s forwards;
+  }
 
-.inner-circle {
-  background: #002f88;
-  animation: expand-fade 3s ease-out 1s forwards;
+  &.inner-circle {
+    background: #002f88;
+    animation: expand-fade 3s ease-out 1s forwards;
+  }
 }
 
 @keyframes expand-fade {
@@ -152,43 +160,43 @@
   opacity: 0;
   visibility: hidden;
   animation: reveal-content 1s ease-in forwards;
-  animation-delay: 3s; /* Adjust this to match the total duration of circle animations */
+  animation-delay: 3s;
+
+  h1 {
+    font-size: 3rem;
+    color: #002f88;
+    margin-bottom: 30px;
+  }
 }
 
 .onboarding-page-logo {
   margin-bottom: 20px;
-}
 
-.onboarding-page-logo img {
-  max-width: 100%;
-  height: auto;
-}
-
-.circle-content h1 {
-  font-size: 3rem;
-  color: #002f88;
-  margin-bottom: 30px;
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 .onboarding-page-buttons {
   margin-top: 30px;
-}
 
-.onboarding-page-buttons button {
-  font-size: 1.6rem;
-  font-weight: 500;
-  padding: 15px 30px;
-  border-radius: 29px;
-  background-color: #002f88;
-  color: white;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.3s, transform 0.3s;
-}
+  button {
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 15px 30px;
+    border-radius: 29px;
+    background-color: #002f88;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
 
-.onboarding-page-buttons button:hover {
-  background-color: #00408c;
-  transform: scale(1.05);
+    &:hover {
+      background-color: #00408c;
+      transform: scale(1.05);
+    }
+  }
 }
 
 @keyframes reveal-content {
