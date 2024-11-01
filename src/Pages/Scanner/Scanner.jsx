@@ -31,14 +31,11 @@ export default function Scanner() {
   };
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setOverlayVisible(markerFound);
-    }, 300);
-
-    return () => {
-      clearTimeout(timer);
-    };
-  }, [markerFound]);
+    if (markerFound && !overlayVisible) {
+      // Only set visible if not already open
+      setOverlayVisible(true);
+    }
+  }, [markerFound, overlayVisible]);
 
   return (
     <div className="Scanner-container">
