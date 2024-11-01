@@ -40,10 +40,22 @@
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 20pt;
+  padding: 20pt; /* Adds padding around the centered modal */
   justify-content: center;
   align-items: center;
   display: flex;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional background for overlay */
+}
+
+.modal-container {
+  max-width: calc(100% - 40pt); /* Ensures the modal fits within padding */
+  max-height: calc(100% - 40pt); /* Limits modal size dynamically */
+  width: auto;
+  height: auto;
+  background-color: white;
+  border-radius: 8px;
+  overflow: auto;
+  box-sizing: border-box;
 }
 
 .Scanner-message {

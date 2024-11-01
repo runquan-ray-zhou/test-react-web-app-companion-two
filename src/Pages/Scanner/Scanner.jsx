@@ -43,7 +43,9 @@ export default function Scanner() {
       <Memars setMarkerFound={setMarkerFound} />
       {overlayVisible && (
         <div className="overlay" onClick={handleBackgroundClick}>
-          <Modal />
+          <div className="modal-container">
+            <Modal />
+          </div>
         </div>
       )}
       {!overlayVisible && (
