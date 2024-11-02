@@ -92,8 +92,13 @@ export default function Portal() {
             <div className="thirdOnboarding-page-heading">
               <h1>Discover more with AR</h1>
             </div>
-            <div className="thirdOnboarding-page-logo">
-              <img src={onboarding} alt="Onboarding AR logo" />
+            <div className="logo-overlay-container">
+              <div className="thirdOnboarding-page-logo">
+                <img src={onboarding} alt="Onboarding AR logo" />
+              </div>
+              <div className="thirdOnboarding-page-ar-logo">
+                <img src={arLogo} alt="AR Logo" />
+              </div>
             </div>
             <div className="thirdOnboarding-page-text">
               <p>
