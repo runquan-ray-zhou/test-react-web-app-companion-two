@@ -19,15 +19,15 @@ export default function NavBar() {
           <li onClick={() => navigate("/home")}>Home</li>
           <li onClick={() => navigate("/sessions")}>Full Session List</li>
           <li onClick={() => navigate("/scanner")}>Information Scan</li>
-          <li>
-            <a
+          <li onClick={() => navigate("/map")}>
+            {/* <a
               id="map-link"
               href="https://drive.google.com/file/d/1xjbPthXP7aVpwq841k5uZkJL3huLmaU2/view"
               target="_blank"
               rel="noopener noreferrer"
-            >
-              Event Map
-            </a>
+            > */}
+            Event Map
+            {/* </a> */}
           </li>
         </ul>
       </div>
